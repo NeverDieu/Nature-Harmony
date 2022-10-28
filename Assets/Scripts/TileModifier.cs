@@ -69,7 +69,7 @@ public class TileModifier : MonoBehaviour
         {
             isSelected = false;
             rendu.material.color = Color.white;
-            myCanvasUI.enabled = !myCanvasUI;
+            myCanvasUI.enabled = !myCanvasUI.enabled;
         }
 
         if (isSelected != false)
@@ -81,13 +81,13 @@ public class TileModifier : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown("mouse 0") && isSelected != false)
+        if (Input.GetKeyDown("mouse 0") && isSelected != false)
         {
             Ray cast = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if(Physics.Raycast(cast, out hit, 100f))
+            if (Physics.Raycast(cast, out hit, 100f))
             {
-                if(hit.collider.tag == "Canvas")
+                if (hit.collider.tag == "Canvas")
                 {
                     rendu.material.color = Color.white;
                     Debug.Log("Dans le vide");
