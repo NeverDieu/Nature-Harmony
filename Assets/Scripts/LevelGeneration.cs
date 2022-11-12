@@ -10,8 +10,13 @@ public class LevelGeneration : MonoBehaviour
     [SerializeField]
     private GameObject tilePrefab;
 
+    [SerializeField]
+    private Canvas myCanvasUI;
+
     private void Start()
     {
+        myCanvasUI.enabled = !myCanvasUI.enabled;
+
         GenerateMap();
     }
 
@@ -30,6 +35,7 @@ public class LevelGeneration : MonoBehaviour
                     this.gameObject.transform.position.z + zTileIndex * tileDepth);
 
                 GameObject tile = Instantiate(tilePrefab, tilePosition, Quaternion.identity) as GameObject;
+                tile.tag = "Tile";
             }
         }
     }

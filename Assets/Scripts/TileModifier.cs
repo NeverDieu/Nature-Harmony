@@ -18,6 +18,9 @@ public class TileModifier : MonoBehaviour
     private Canvas myCanvasUI;
 
     [SerializeField]
+    private Button myButtonUI;
+
+    [SerializeField]
     private Color color = Color.black;
 
     [Range(1, 10)]
@@ -34,6 +37,7 @@ public class TileModifier : MonoBehaviour
 
         myCanvasUI = tile.GetComponentInChildren<Canvas>();
         mySliderUI = tile.GetComponentInChildren<Slider>();
+        myButtonUI = GameObject.Find("Canvas").GetComponentInChildren<Button>();
 
         myCanvasUI.enabled = !myCanvasUI.enabled;
 
@@ -65,14 +69,17 @@ public class TileModifier : MonoBehaviour
 
     private void Update()
     {
-        if(isSelected && transform != trSelect)
+        //Permet de selectionné une autre tuile en déselectionnant la précédente.
+        if (gameObject.GetComponent<Renderer>().material.color == color && transform != trSelect)
         {
             isSelected = false;
             rendu.material.color = Color.white;
             myCanvasUI.enabled = !myCanvasUI.enabled;
+            Debug.Log("Je fais chié");
         }
 
-        if (isSelected != false)
+
+        if (isSelected == true && myCanvasUI.enabled == true)
         {
             tile.transform.localScale = new Vector3(10f, mySlider, 10f);
             if (mySlider >= 1)
@@ -81,26 +88,38 @@ public class TileModifier : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown("mouse 0") && isSelected != false)
+/*        Ray cast = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(cast, out hit, 100f))
         {
-            Ray cast = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(cast, out hit, 100f))
-            {
-                if (hit.collider.tag == "Canvas")
-                {
-                    rendu.material.color = Color.white;
-                    Debug.Log("Dans le vide");
-                }
+            if (hit.collider.tag == "Tile")
+            { 
+                this.rendu.material.color = Color.cyan;
             }
-        }
+        }*/
     }
 
+    //Permet de selectionné et déselectionné une tuile
     private void OnMouseDown()
     {
-        isSelected = true;
-        trSelect = transform;
-        rendu.material.color = color;
-        myCanvasUI.enabled = !myCanvasUI.enabled;
+        if (gameObject.tag == "Tile")
+        {
+            if (gameObject.GetComponent<Renderer>().material.color == color && isSelected == true)
+            {
+                rendu.material.color = Color.white;
+                isSelected = false;
+                myCanvasUI.enabled = !myCanvasUI.enabled;
+                Debug.Log("Déselectionné");
+            }
+
+            if (gameObject.GetComponent<Renderer>().material.color == Color.cyan && isSelected == false)
+            {
+                rendu.material.color = Color.black;
+                isSelected = true;
+                trSelect = transform;
+                myCanvasUI.enabled = !myCanvasUI.enabled;
+                Debug.Log("Selectionné");
+            }
+        }
     }
 }
