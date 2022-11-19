@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8132806607535157447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano F4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano F4
+  Guid:
+    Data1: 890242298
+    Data2: 1226789547
+    Data3: 1569089457
+    Data4: -1416972805
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-6702421736044212544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano D4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano D4
+  Guid:
+    Data1: 1053341960
+    Data2: 1304540452
+    Data3: -1123929929
+    Data4: 1241963057
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-5232552369933091275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano C#4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano C#4
+  Guid:
+    Data1: -1134460556
+    Data2: 1325046080
+    Data3: 1310408602
+    Data4: 888862591
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-4019760061007502726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano Eb4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano Eb4
+  Guid:
+    Data1: -794085878
+    Data2: 1264678636
+    Data3: 1242534798
+    Data4: -1864447081
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-2181419917539829117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano E4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano E4
+  Guid:
+    Data1: -2008878884
+    Data2: 1325747669
+    Data3: 1039926446
+    Data4: 1662566490
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-1745314474079975616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano Bb4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano Bb4
+  Guid:
+    Data1: 1743717536
+    Data2: 1173243351
+    Data3: -1862170436
+    Data4: 438541430
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &-1397684907662974660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano G4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano G4
+  Guid:
+    Data1: -1927752853
+    Data2: 1146358030
+    Data3: 1711359625
+    Data4: 821435038
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6955899567059576139}
+  - {fileID: 6715272324378502141}
+  EditorEvents:
+  - {fileID: -6702421736044212544}
+  - {fileID: -4019760061007502726}
+  - {fileID: 5446023103256705311}
+  - {fileID: -1397684907662974660}
+  - {fileID: -5232552369933091275}
+  - {fileID: -1745314474079975616}
+  - {fileID: 5077429450496663014}
+  - {fileID: 8339155526067775563}
+  - {fileID: -2181419917539829117}
+  - {fileID: 6028361541387229212}
+  - {fileID: -8132806607535157447}
+  - {fileID: 297489432138131563}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6715272324378502141}
+  StringsBanks:
+  - {fileID: 6955899567059576139}
+  cacheTime: 638042171624025293
+  cacheVersion: 131593
+--- !u!114 &297489432138131563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano B4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano B4
+  Guid:
+    Data1: 1408722682
+    Data2: 1254514670
+    Data3: 1271792059
+    Data4: -807355058
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &5077429450496663014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano G#4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano G#4
+  Guid:
+    Data1: -1474841676
+    Data2: 1179840387
+    Data3: -174635631
+    Data4: -1565408128
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &5446023103256705311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano C4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano C4
+  Guid:
+    Data1: 1033516117
+    Data2: 1207252259
+    Data3: 2100465813
+    Data4: 1597963515
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &6028361541387229212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano A4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano A4
+  Guid:
+    Data1: -457389338
+    Data2: 1290058476
+    Data3: 647735692
+    Data4: -1139217109
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
+--- !u!114 &6715272324378502141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Pianoctave/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638042171624005368
+  FileSizes:
+  - Name: Desktop
+    Value: 268672
+  Exists: 1
+--- !u!114 &6955899567059576139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Pianoctave/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638042171624025293
+  FileSizes:
+  - Name: Desktop
+    Value: 1192
+  Exists: 1
+--- !u!114 &8339155526067775563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Piano F#4
+  m_EditorClassIdentifier: 
+  Path: event:/Piano F#4
+  Guid:
+    Data1: 2005004494
+    Data2: 1250776252
+    Data3: 1884492933
+    Data4: 1605329055
+  Banks:
+  - {fileID: 6715272324378502141}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
