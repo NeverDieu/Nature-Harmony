@@ -6,12 +6,13 @@ TagManager:
   tags:
   - Arbre
   - Canvas
-  - Tile
+  - Terrain
+  - Champignon
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Terrain
   - Water
   - UI
   - 
