@@ -75,7 +75,8 @@ public class ObjectPlacement : MonoBehaviour
                 objectToDestroy = Instantiate(objectToDestroy, hit.point, Quaternion.identity);
                 rendu.material.color = Color.white;
             }
-            moveThis.transform.position = hit.point;
+            //moveThis.transform.position = hit.point;
+            Debug.Log(hit.collider.tag);
         }
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Canvas
   - Terrain
   - Champignon
+  - Inventaire
   layers:
   - Default
   - TransparentFX
