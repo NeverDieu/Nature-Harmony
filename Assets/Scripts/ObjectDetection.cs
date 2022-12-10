@@ -16,13 +16,13 @@ public class ObjectDetection : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     { 
-        Debug.Log("Objets en contact : " + collision.gameObject.name);
+        Debug.Log("Objets en contact : " + collision.gameObject.tag);
         objectNumber++;
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        Debug.Log("Plus d'objets en contact");
+        Debug.Log("Objets sortis : " + collision.gameObject.tag);
         objectNumber--;
     }
 }

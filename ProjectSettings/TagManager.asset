@@ -9,6 +9,7 @@ TagManager:
   - Terrain
   - Champignon
   - Inventaire
+  - Button
   layers:
   - Default
   - TransparentFX
