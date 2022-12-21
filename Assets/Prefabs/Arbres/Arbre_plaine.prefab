@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1144694092954301016
+--- !u!1 &5408540510171696362
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 335823402306054370}
-  - component: {fileID: 4299737586858431328}
-  - component: {fileID: 2051943088135068893}
+  - component: {fileID: 4631158767389005392}
+  - component: {fileID: 467517628530137822}
+  - component: {fileID: 2691239509874938097}
+  - component: {fileID: 6359631300970786469}
   m_Layer: 0
-  m_Name: Arbre_Marais
+  m_Name: Arbre_plaine
   m_TagString: Arbre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &335823402306054370
+--- !u!4 &4631158767389005392
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144694092954301016}
+  m_GameObject: {fileID: 5408540510171696362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 856187001358926447}
+  - {fileID: 478986540190205484}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &4299737586858431328
+--- !u!54 &467517628530137822
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144694092954301016}
+  m_GameObject: {fileID: 5408540510171696362}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -50,20 +51,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &2051943088135068893
+--- !u!65 &2691239509874938097
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144694092954301016}
+  m_GameObject: {fileID: 5408540510171696362}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &3726166384007282938
+--- !u!135 &6359631300970786469
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5408540510171696362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 3, z: 0}
+--- !u!1 &8580693715868769725
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,47 +85,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 856187001358926447}
-  - component: {fileID: 6895545592775873304}
-  - component: {fileID: 7846802780419866486}
-  - component: {fileID: 5742732040715712687}
+  - component: {fileID: 478986540190205484}
+  - component: {fileID: 2598660877928130705}
+  - component: {fileID: 4487427756735719125}
   m_Layer: 0
-  m_Name: Arbre_Marais
+  m_Name: Arbre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &856187001358926447
+--- !u!4 &478986540190205484
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3726166384007282938}
+  m_GameObject: {fileID: 8580693715868769725}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: -0.5, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 335823402306054370}
+  m_Father: {fileID: 4631158767389005392}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6895545592775873304
+--- !u!33 &2598660877928130705
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3726166384007282938}
-  m_Mesh: {fileID: -9039412037074819731, guid: 355b7c5f6eab9fb4182cea1f7be26029, type: 3}
---- !u!23 &7846802780419866486
+  m_GameObject: {fileID: 8580693715868769725}
+  m_Mesh: {fileID: -2326481128326242524, guid: ba885fbf8387c6e43a756f59aca53755, type: 3}
+--- !u!23 &4487427756735719125
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3726166384007282938}
+  m_GameObject: {fileID: 8580693715868769725}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -125,7 +138,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4874126678125670354, guid: 355b7c5f6eab9fb4182cea1f7be26029, type: 3}
+  - {fileID: -876546973899608171, guid: ba885fbf8387c6e43a756f59aca53755, type: 3}
+  - {fileID: -6478536213147159724, guid: ba885fbf8387c6e43a756f59aca53755, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -147,19 +161,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &5742732040715712687
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3726166384007282938}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0

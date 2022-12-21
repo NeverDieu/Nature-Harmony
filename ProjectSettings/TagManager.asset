@@ -10,6 +10,7 @@ TagManager:
   - Champignon
   - Inventaire
   - Button
+  - Rocher
   layers:
   - Default
   - TransparentFX
