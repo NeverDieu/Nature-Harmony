@@ -213,10 +213,22 @@ MonoBehaviour:
   hitLayers:
     serializedVersion: 2
     m_Bits: 44
-  "pr\xE9rendu_arbres": {fileID: 0}
-  "pr\xE9rendu_champignons": {fileID: 0}
-  "pr\xE9rendu_rochers": {fileID: 0}
-  "pr\xE9rendu_buissons": {fileID: 0}
+  "pr\xE9rendu_arbre_plaine": {fileID: 0}
+  "pr\xE9rendu_arbre_marais": {fileID: 0}
+  "pr\xE9rendu_arbre_d\xE9sert": {fileID: 0}
+  "pr\xE9rendu_arbre_montagne": {fileID: 0}
+  "pr\xE9rendu_champignon_plaine": {fileID: 0}
+  "pr\xE9rendu_champignon_marais": {fileID: 0}
+  "pr\xE9rendu_champignon_d\xE9sert": {fileID: 0}
+  "pr\xE9rendu_champignon_montagne": {fileID: 0}
+  "pr\xE9rendu_rocher_plaine": {fileID: 0}
+  "pr\xE9rendu_rocher_marais": {fileID: 0}
+  "pr\xE9rendu_rocher_d\xE9sert": {fileID: 0}
+  "pr\xE9rendu_rocher_montagne": {fileID: 0}
+  "pr\xE9rendu_buisson_plaine": {fileID: 0}
+  "pr\xE9rendu_buisson_marais": {fileID: 0}
+  "pr\xE9rendu_buisson_d\xE9sert": {fileID: 0}
+  "pr\xE9rendu_buisson_montagne": {fileID: 0}
   tak: 
 --- !u!114 &332227014
 MonoBehaviour:
@@ -760,6 +772,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1371121834311048216, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371121834311048216, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 87
+      objectReference: {fileID: 0}
     - target: {fileID: 1371121834605327571, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -768,6 +788,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 1371121834605327582, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: speed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 1371121834605327583, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -853,53 +877,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
-      propertyPath: buisson_marais
-      value: 
-      objectReference: {fileID: 1591566764623035688, guid: 83589703048bb0b43933ecfd14500bf8, type: 3}
-    - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
-      propertyPath: buisson_plaine
-      value: 
-      objectReference: {fileID: 4812115851918360319, guid: 3d57b8283679d03498290c6e7d8c4b97, type: 3}
-    - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
-      propertyPath: "buisson_d\xE9sert"
-      value: 
-      objectReference: {fileID: 3210590107495628861, guid: f0b60637251cafe4890748961487d115, type: 3}
-    - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: objectToDestroy
       value: 
       objectReference: {fileID: 1013478409}
-    - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
-      propertyPath: buisson_montagne
-      value: 
-      objectReference: {fileID: 5501023091984679801, guid: 84810281b52af0f4cbb85a8e41dbbb5c, type: 3}
     - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: "pr\xE9rendu_arbres"
       value: 
       objectReference: {fileID: 4968473615869618334, guid: 86fe3906221d4534b91739b8b33885ff, type: 3}
     - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
-      propertyPath: champignon_marais
-      value: 
-      objectReference: {fileID: 1073812494}
-    - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: "pr\xE9rendu_rochers"
       value: 
       objectReference: {fileID: 8829611317486835500, guid: f47ec4134ed1add41a1d69bd0b6ae6ec, type: 3}
-    - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
-      propertyPath: "champignon_d\xE9sert"
-      value: 
-      objectReference: {fileID: 5492768928634241956, guid: bb3dd821b59dda04db99b5e265246efd, type: 3}
     - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: "pr\xE9rendu_buissons"
       value: 
       objectReference: {fileID: 1073812494}
     - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
-      propertyPath: champignon_montagne
-      value: 
-      objectReference: {fileID: 4159423743791530499, guid: 54f350a4270739941b7a48a1dfa43998, type: 3}
-    - target: {fileID: 1371121835220626770, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: "pr\xE9rendu_champignons"
       value: 
       objectReference: {fileID: 3261624346071529006, guid: ae22b57b1d17f26419fe86ba61c3c9c7, type: 3}
+    - target: {fileID: 1371121835220626771, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371121835220626771, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 87
+      objectReference: {fileID: 0}
     - target: {fileID: 1371121835338593691, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: m_IsActive
       value: 1
