@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6308964597718215695}
   m_Layer: 0
   m_Name: Champignon_marais
-  m_TagString: Untagged
+  m_TagString: Champignon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -38,7 +38,7 @@ public class ObjectPlacement : MonoBehaviour
         buttonArbres.onClick.AddListener(Arbre);
         buttonChampignons.onClick.AddListener(Champignon);
         buttonRochers.onClick.AddListener(Rocher);
-        buttonBuissons.onClick.AddListener(Buisson);
+        buttonBuissons.onClick.AddListener(Buisson); 
     }
 
     void Update()
@@ -56,8 +56,6 @@ public class ObjectPlacement : MonoBehaviour
                 ObjectSpawner();
             }
             moveThis.transform.position = hit.point;
-            
-            
         }
     }
 
