@@ -29,6 +29,12 @@ public class ObjectPlacement : MonoBehaviour
     //Quel tag l'objet a
     public string tak;
 
+    GroupMaker leoTechMaker;
+
+    Quaternion randomYRotation;
+
+    Vector3 randomScale;
+
     RaycastHit hit;
 
     private Vector3 spawnPoint = new Vector3(0f, -1000f, 0f);
@@ -57,22 +63,22 @@ public class ObjectPlacement : MonoBehaviour
             }
             moveThis.transform.position = hit.point;
         }
+
+        randomYRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
+        randomScale = Vector3.one * Random.Range(0.75f, 1.25f);
     }
 
     public void Arbre()
     {
-
         Destroy(objectToDestroy);
 
         objectToDestroy = Instantiate(prérendu_arbre_plaine, spawnPoint, Quaternion.identity);
-        
 
         tak = "Arbre";
     }
 
     public void Champignon()
     {
-
         Destroy(objectToDestroy);
 
         objectToDestroy = Instantiate(prérendu_champignon_plaine, spawnPoint, Quaternion.identity);
@@ -104,19 +110,31 @@ public class ObjectPlacement : MonoBehaviour
         {
             if (hit.collider.name == "Plaine")
             {
-                Instantiate(arbre_plaine, hit.point, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(arbre_plaine, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Marais")
             {
-                Instantiate(arbre_marais, hit.point, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(arbre_marais, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Désert")
             {
-                Instantiate(arbre_désert, hit.point, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(arbre_désert, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Montagne")
             {
-                Instantiate(arbre_montagne, hit.point, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(arbre_montagne, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
         }
 
@@ -124,19 +142,31 @@ public class ObjectPlacement : MonoBehaviour
         {
             if (hit.collider.name == "Plaine")
             {
-                Instantiate(champignon_plaine, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(champignon_plaine, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++; ;
             }
             else if (hit.collider.name == "Marais")
             {
-                Instantiate(champignon_marais, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(champignon_marais, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Désert")
             {
-                Instantiate(champignon_désert, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(champignon_désert, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Montagne")
             {
-                Instantiate(champignon_montagne, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(champignon_montagne, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
         }
 
@@ -144,19 +174,31 @@ public class ObjectPlacement : MonoBehaviour
         {
             if (hit.collider.name == "Plaine")
             {
-                Instantiate(rocher_plaine, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(rocher_plaine, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Marais")
             {
-                Instantiate(rocher_marais, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(rocher_marais, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Désert")
             {
-                Instantiate(rocher_désert, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(rocher_désert, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Montagne")
             {
-                Instantiate(rocher_montagne, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(rocher_montagne, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
         }
 
@@ -164,19 +206,31 @@ public class ObjectPlacement : MonoBehaviour
         {
             if (hit.collider.name == "Plaine")
             {
-                Instantiate(buisson_plaine, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(buisson_plaine, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Marais")
             {
-                Instantiate(buisson_marais, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(buisson_marais, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Désert")
             {
-                Instantiate(buisson_désert, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(buisson_désert, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
             else if (hit.collider.name == "Montagne")
             {
-                Instantiate(buisson_montagne, objectToDestroy.transform.position, Quaternion.identity);
+                var leoTechMakerEnfant = Instantiate(buisson_montagne, hit.point, randomYRotation);
+                leoTechMakerEnfant.transform.localScale = randomScale;
+                leoTechMaker.array.Add(leoTechMakerEnfant.GetComponent<GroupMaker>());
+                leoTechMaker.groupLength++;
             }
         }
     }

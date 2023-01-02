@@ -45,9 +45,9 @@ public class GroupMaker : MonoBehaviour
         groupHierarchie = GameObject.Find("Groups");
         empty = GameObject.Find("PlaceHolder");
 
-        array = new List<GroupMaker>();
+        /*array = new List<GroupMaker>();
         array.Add(GetComponent<GroupMaker>());
-        array[0] = GetComponent<GroupMaker>();
+        array[0] = GetComponent<GroupMaker>();*/
 
         transforms = new List<Transform>();
         transforms.Add(GetComponent<Transform>());
@@ -75,19 +75,20 @@ public class GroupMaker : MonoBehaviour
             //array[0] = GetComponent<GroupMaker>();
             transforms.Add(other.GetComponent<Transform>());
             //transforms[0] = GetComponent<Transform>();
-
             groupLength++;
 
             if (groupLength >= 3 && groupLength <= 8)
             {
-                groupFabricator.GroupManager(empty, numberOfGroups);
+                isInGroup = true;
+                //groupFabricator.GroupManager(empty, numberOfGroups);
                 foreach (GroupMaker element in array)
                 {
-                    element.isInGroup = true;
-                    element.groupLength = groupLength;
+                    
+                    element.groupLength = array.Count;
                     element.array = array;
                     element.transforms = transforms;
-                    element.GetComponent<SphereCollider>().enabled = false;
+                    //element.GetComponent<SphereCollider>().enabled = false;
+                    element.isInGroup = true;
                 }
             }
         }
@@ -105,9 +106,9 @@ public class GroupMaker : MonoBehaviour
 
         if (groupLength < 3)
         {
-            foreach(GroupMaker element in array)
+            foreach (GroupMaker element in array)
             {
-                element.isInGroup = false;
+                isInGroup = false;
             }
         }
     }
@@ -133,13 +134,4 @@ public class GroupMaker : MonoBehaviour
 
         group.transform.position = bound.center;
     }
-
-    /*private void GroupBounderies()
-    {
-        var bound = new Bounds(transforms[0].position, Vector3.zero);
-        
-        bound.Encapsulate(transforms[0].position);
-        
-        group.transform.position = bound.center;
-    }*/
 }

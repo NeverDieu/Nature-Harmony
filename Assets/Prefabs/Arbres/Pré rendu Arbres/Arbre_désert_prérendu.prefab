@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 8597267926266128057}
   - component: {fileID: 5812835302877909619}
   m_Layer: 0
-  m_Name: "arbre d\xE9sert2"
+  m_Name: "Arbre_d\xE9sert"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
