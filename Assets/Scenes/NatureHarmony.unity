@@ -237,7 +237,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.5
-  zoomSensitivity: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
