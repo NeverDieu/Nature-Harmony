@@ -6,8 +6,6 @@ public class CameraView : MonoBehaviour
     private float X;
     private float Y;
 
-    public float zoomSensitivity = 2f;
-
     void Update()
     {
         if (Input.GetMouseButton(1))
