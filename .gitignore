@@ -59,3 +59,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 UserSettings/Layouts/default-2021.dwlt
+UserSettings/Layouts/default-2021.dwlt
+*.log
+Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+UserSettings/Layouts/default-2021.dwlt
