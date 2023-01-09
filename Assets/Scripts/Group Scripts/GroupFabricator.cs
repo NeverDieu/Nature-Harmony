@@ -3,37 +3,45 @@ using System.Collections.Generic;
 
 public class GroupFabricator : MonoBehaviour
 {
-    public List<GroupMaker> buddha;
+    public List<GameObject> groups;
 
     void Start()
     {
-        buddha = new List<GroupMaker>();
-        buddha.Add(gameObject.GetComponent<GroupMaker>());
+        groups = new List<GameObject>();
+        //buddha.Add(gameObject.GetComponent<GameObject>());
     }
 
     private void Update()
     {
-        if(GameObject.Find(buddha[buddha.Count].nameTag))
-        {
-            buddha.Clear();
-            buddha.Add(GameObject.Find(buddha[buddha.Count].nameTag).GetComponent<GroupMaker>());
-        }
+
     }
 
-    public void GroupManager(GameObject group, int groupNumber)
-    {
-        //GameObject.Find(buddha[buddha.Count].nameTag).GetComponent<GroupMaker>().enabled = false;
+    public void GroupManager(GameObject groupMaker, GameObject groupHierarchie, int groupNumber)
+    { 
+        var maker = groupMaker.GetComponent<GroupMaker>();
 
-        groupNumber++;
-
-        group = new GameObject("Group " + groupNumber);
-
-        group.AddComponent<SphereCollider>().isTrigger = true;
-        group.GetComponent<SphereCollider>().radius = 10f;
-        group.GetComponent<SphereCollider>().center = new Vector3(0f, 3f, 0f);
+        string[] x = maker.nameTag.Split("_");
+        string[] xx = x[1].Split("(Clone)");
         
 
-        group.transform.parent = gameObject.transform;
-        buddha[buddha.Count].gameObject.transform.parent = group.transform;
+        groupHierarchie = new GameObject();
+
+        groups.Add(groupHierarchie);
+
+        groupHierarchie.name = "Group of " + x[0] + " " + xx[0] + " " + groups.Count;
+
+        groupHierarchie.tag = maker.tag;
+
+        groupHierarchie.AddComponent<SphereCollider>().isTrigger = true;
+        groupHierarchie.GetComponent<SphereCollider>().radius = 20f;
+
+        groupHierarchie.AddComponent<GroupContainer>();
+
+        foreach (GameObject element in maker.gameObjects)
+        {
+            element.transform.parent = groupHierarchie.transform;
+        }
+
+        groupHierarchie.transform.parent = gameObject.transform;
     }
 }

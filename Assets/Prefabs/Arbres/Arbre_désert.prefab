@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1822092305176869759}
   - component: {fileID: 4634033639203338339}
-  - component: {fileID: 7251344894670230037}
   - component: {fileID: 1277883116055919673}
   m_Layer: 0
   m_Name: "Arbre_d\xE9sert"
@@ -51,19 +50,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &7251344894670230037
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297757837769466309}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &1277883116055919673
 SphereCollider:
   m_ObjectHideFlags: 0

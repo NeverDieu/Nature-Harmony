@@ -6,7 +6,7 @@ public class ObjectPlacementEditor : Editor
 {
     public enum GameObjects
     {
-        Arbres, Champignons, Rochers, Buissons, Buttons, PréRendus, Autres
+        Arbres, Champignons, Rochers, Buissons, PréRendus, Autres
     }
 
     public GameObjects dropdown;
@@ -35,10 +35,6 @@ public class ObjectPlacementEditor : Editor
                 BuissonsGameObjects();
                 break;
 
-            case GameObjects.Buttons:
-                Button();
-                break;
-                
             case GameObjects.PréRendus:
                 PréRendu();
                 break;
@@ -82,16 +78,6 @@ public class ObjectPlacementEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_désert"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_montagne"));
     }
-
-    void Button()
-    {
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonArbres"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonChampignons"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonRochers"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonBuissons"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonPlaceHolder"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonPlaceHolder1"));
-    }
     void PréRendu()
     {
         
@@ -117,6 +103,7 @@ public class ObjectPlacementEditor : Editor
     {
         EditorGUILayout.PropertyField(serializedObject.FindProperty("objectToDestroy"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("moveThis"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("leoTechMaker"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("hitLayers"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("tak"));
     }

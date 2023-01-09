@@ -93,7 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2116042179437406098}
   - component: {fileID: 7152092026024106500}
-  - component: {fileID: 7669569529875850446}
   - component: {fileID: 5586634473837675872}
   m_Layer: 0
   m_Name: Buisson_marais
@@ -140,19 +139,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &7669569529875850446
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591566764623035688}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: -0.25, z: 0}
 --- !u!135 &5586634473837675872
 SphereCollider:
   m_ObjectHideFlags: 0
