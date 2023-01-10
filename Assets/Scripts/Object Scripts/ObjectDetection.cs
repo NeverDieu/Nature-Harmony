@@ -81,7 +81,6 @@ public class ObjectDetection : MonoBehaviour
         else if (var.CompareTag("Champignon"))
         {
             objectNumberChampignons++;
-            Debug.Log(other.GetComponent<BoxCollider>());
             if (nom.Contains("plaine") && !gameObject.name.Contains("Plaine"))
             {
                 Physics.IgnoreCollision(monCollider, var);

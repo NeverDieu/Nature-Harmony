@@ -6,8 +6,6 @@ public class GroupMaker : MonoBehaviour
 {
     public string nameTag;
 
-    public int id;
-
     public SphereCollider influence;
 
     private ObjectPlacement canvas;
@@ -16,11 +14,7 @@ public class GroupMaker : MonoBehaviour
 
     private GameObject empty, groupHierarchie;
 
-    //public Collider boxes;
-
-    public int numberOfGroups;
-
-    public bool isInGroup;
+    private int numberOfGroups;
 
     public int groupLength;
 
@@ -44,20 +38,8 @@ public class GroupMaker : MonoBehaviour
         gameObjects.Add(gameObject);
     }
 
-    private void Update()
-    {
-        //GroupBounderies();
-        
-        if (groupLength < 3)
-        {
-            isInGroup = false;
-        }
-    }
-
     public void OnTriggerEnter(Collider other)
     {
-        //Physics.IgnoreCollision(GetComponent<BoxCollider>(), other.GetComponent<BoxCollider>());
-
         if (influence.name == other.name)
         {
             var groupObjects = other.gameObject;
@@ -67,10 +49,8 @@ public class GroupMaker : MonoBehaviour
 
             groupLength += 1;
 
-            if (groupLength >= 3)
-            {
-                isInGroup = true;
-
+            if (groupLength >= 3 && gameObjects.Count >= 3)
+            { 
                 groupObjects.GetComponent<GroupMaker>().gameObjects = gameObjects;
                 if (gameObjects[0] == other.gameObject)
                 {

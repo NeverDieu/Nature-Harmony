@@ -15,7 +15,7 @@ public class CameraView : MonoBehaviour
             X += speed * Input.GetAxis("Mouse Y");
             Y -= speed * Input.GetAxis("Mouse X");
 
-            X = Mathf.Clamp(X, 5f, 90f);
+            X = Mathf.Clamp(X, 5f, 89f);
 
             transform.eulerAngles = new Vector3(X, Y, 0f);
         }
