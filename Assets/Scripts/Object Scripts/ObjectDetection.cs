@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ObjectDetection : MonoBehaviour
 {
+    private MeshCollider monCollider;
+
     [Header("Total")]
     public int objectNumberTotal;
 
@@ -18,45 +20,144 @@ public class ObjectDetection : MonoBehaviour
 
     [Header("Buissons")]
     public int objectNumberBuissons;
-    private void OnCollisionEnter(Collision collision)
-    { 
-        objectNumberTotal++;
 
-        if (collision.collider.tag == "Arbre")
+    private void Start()
+    {
+        monCollider = GetComponent<MeshCollider>();
+    }
+
+    private void Update()
+    {
+        if(objectNumberTotal < 0)
         {
-            objectNumberArbres++;
+            objectNumberTotal = 0;
         }
-        else if (collision.collider.tag == "Champignon")
+        if(objectNumberArbres < 0)
         {
-            objectNumberChampignons++;
+            objectNumberArbres = 0;
         }
-        else if (collision.collider.tag == "Rocher")
+        if(objectNumberChampignons < 0)
         {
-            objectNumberRochers++;
+            objectNumberChampignons = 0;
         }
-        else if (collision.collider.tag == "Buisson")
+        if(objectNumberRochers < 0)
         {
-            objectNumberBuissons++;
+            objectNumberChampignons = 0;
+        }
+        if(objectNumberBuissons < 0)
+        {
+            objectNumberBuissons = 0;
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    public void OnTriggerEnter(Collider other)
+    { 
+        objectNumberTotal++;
+
+        var var = other.GetComponent<SphereCollider>();
+        var nom = other.name;
+
+        if (var.CompareTag("Arbre"))
+        {
+            objectNumberArbres++;
+            if (nom.Contains("plaine") && !gameObject.name.Contains("Plaine"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("marais") && !gameObject.name.Contains("Marais"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("désert") && !gameObject.name.Contains("Désert"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("montagne") && !gameObject.name.Contains("Montagne"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+
+        }
+        else if (var.CompareTag("Champignon"))
+        {
+            objectNumberChampignons++;
+            Debug.Log(other.GetComponent<BoxCollider>());
+            if (nom.Contains("plaine") && !gameObject.name.Contains("Plaine"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("marais") && !gameObject.name.Contains("Marais"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("désert") && !gameObject.name.Contains("Désert"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("montagne") && !gameObject.name.Contains("Montagne"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+        }
+        else if (var.CompareTag("Rocher"))
+        {
+            objectNumberRochers++;
+            if (nom.Contains("plaine") && !gameObject.name.Contains("Plaine"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("marais") && !gameObject.name.Contains("Marais"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("désert") && !gameObject.name.Contains("Désert"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("montagne") && !gameObject.name.Contains("Montagne"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+        }
+        else if (var.CompareTag("Buisson"))
+        {
+            objectNumberBuissons++;
+            if (nom.Contains("plaine") && !gameObject.name.Contains("Plaine"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("marais") && !gameObject.name.Contains("Marais"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("désert") && !gameObject.name.Contains("Désert"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("montagne") && !gameObject.name.Contains("Montagne"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+        }
+    }
+
+    public void OnTriggerExit(Collider other)
     {
         objectNumberTotal--;
 
-        if (collision.collider.tag == "Arbre")
+        if (other.CompareTag("Arbre"))
         {
             objectNumberArbres--;
         }
-        else if (collision.collider.tag == "Champignon")
+        else if (other.CompareTag("Champignon"))
         {
             objectNumberChampignons--;
         }
-        else if (collision.collider.tag == "Rocher")
+        else if (other.CompareTag("Rocher"))
         {
             objectNumberRochers--;
         }
-        else if (collision.collider.tag == "Buisson")
+        else if (other.CompareTag("Buisson"))
         {
             objectNumberBuissons--;
         }

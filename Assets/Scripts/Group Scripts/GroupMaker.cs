@@ -6,13 +6,17 @@ public class GroupMaker : MonoBehaviour
 {
     public string nameTag;
 
+    public int id;
+
     public SphereCollider influence;
 
-    public ObjectPlacement canvas;
+    private ObjectPlacement canvas;
 
     private GroupFabricator groupFabricator;
 
-    public GameObject empty, groupHierarchie;
+    private GameObject empty, groupHierarchie;
+
+    //public Collider boxes;
 
     public int numberOfGroups;
 
@@ -20,75 +24,57 @@ public class GroupMaker : MonoBehaviour
 
     public int groupLength;
 
-    public List<GroupMaker> array;
-
-    public List<Transform> transforms;
-
-    [SerializeField]
-    private List<BoxCollider> ignoreTerrain;
+    public List<GameObject> gameObjects;
 
     void Start()
     {
-        ignoreTerrain[0] = GameObject.Find("Plaine").GetComponent<BoxCollider>();
-        ignoreTerrain[1] = GameObject.Find("Marais").GetComponent<BoxCollider>();
-        ignoreTerrain[2] = GameObject.Find("Désert").GetComponent<BoxCollider>();
-        ignoreTerrain[3] = GameObject.Find("Montagne").GetComponent<BoxCollider>();
-        ignoreTerrain[4] = GetComponent<BoxCollider>();
+        groupFabricator = GameObject.Find("Groups").GetComponent<GroupFabricator>();
 
         influence = gameObject.GetComponent<SphereCollider>();
-        
         canvas = GameObject.Find("Canvas").GetComponentInChildren<ObjectPlacement>();
-        groupHierarchie = GameObject.Find("groupHierarchie");
-        nameTag = canvas.arbre_plaine.name + "(Clone)";
-        groupLength++;
+
+        nameTag = gameObject.name;
+        groupLength = 1;
 
         groupHierarchie = GameObject.Find("Groups");
         empty = GameObject.Find("PlaceHolder");
 
-        /*array = new List<GroupMaker>();
-        array.Add(GetComponent<GroupMaker>());
-        array[0] = GetComponent<GroupMaker>();*/
+        gameObjects = new List<GameObject>();
 
-        transforms = new List<Transform>();
-        transforms.Add(GetComponent<Transform>());
-        transforms[0] = GetComponent<Transform>();
-
-        Physics.IgnoreCollision(influence, ignoreTerrain[0]);
-        Physics.IgnoreCollision(influence, ignoreTerrain[1]);
-        Physics.IgnoreCollision(influence, ignoreTerrain[2]);
-        Physics.IgnoreCollision(influence, ignoreTerrain[3]);
-        Physics.IgnoreCollision(influence, ignoreTerrain[4]);
+        gameObjects.Add(gameObject);
     }
 
     private void Update()
     {
         //GroupBounderies();
+        
+        if (groupLength < 3)
+        {
+            isInGroup = false;
+        }
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        ignoreTerrain[5] = other.GetComponent<BoxCollider>();
-        Physics.IgnoreCollision(influence, ignoreTerrain[5]);
-        if (influence.name == nameTag)
-        {
-            array.Add(other.GetComponent<GroupMaker>());
-            //array[0] = GetComponent<GroupMaker>();
-            transforms.Add(other.GetComponent<Transform>());
-            //transforms[0] = GetComponent<Transform>();
-            groupLength++;
+        //Physics.IgnoreCollision(GetComponent<BoxCollider>(), other.GetComponent<BoxCollider>());
 
-            if (groupLength >= 3 && groupLength <= 8)
+        if (influence.name == other.name)
+        {
+            var groupObjects = other.gameObject;
+            var selfGrouper = gameObject;
+
+            gameObjects.Add(groupObjects);
+
+            groupLength += 1;
+
+            if (groupLength >= 3)
             {
                 isInGroup = true;
-                //groupFabricator.GroupManager(empty, numberOfGroups);
-                foreach (GroupMaker element in array)
+
+                groupObjects.GetComponent<GroupMaker>().gameObjects = gameObjects;
+                if (gameObjects[0] == other.gameObject)
                 {
-                    
-                    element.groupLength = array.Count;
-                    element.array = array;
-                    element.transforms = transforms;
-                    //element.GetComponent<SphereCollider>().enabled = false;
-                    element.isInGroup = true;
+                    groupFabricator.GroupManager(selfGrouper, groupHierarchie, numberOfGroups);
                 }
             }
         }
@@ -96,42 +82,15 @@ public class GroupMaker : MonoBehaviour
 
     public void OnTriggerExit(Collider other)
     {
-        
-        groupLength--;
-        array.RemoveAt(groupLength);
-        transforms.RemoveAt(groupLength);
-        
-        GroupMaker nulleBOUH;
-        nulleBOUH = other.GetComponent<GroupMaker>();
-
-        if (groupLength < 3)
+        if (influence.name == other.name && groupLength >= 3)
         {
-            foreach (GroupMaker element in array)
-            {
-                isInGroup = false;
-            }
+            gameObjects.Remove(gameObject);
+            groupLength--;
         }
-    }
-
-    private void GroupManager(GameObject group, int groupNumber)
-    {   
-        groupNumber++;
-
-        group.transform.parent = groupHierarchie.transform;
-
-        group = new GameObject("Group " + groupNumber);
-
-        gameObject.transform.parent = group.transform;
-
-        group.AddComponent<SphereCollider>().isTrigger = true;
-        group.GetComponent<SphereCollider>().radius = 10f;
-        //group.GetComponent<SphereCollider>().center = new Vector3(0f, 3f, 0f);
-        
-
-        var bound = new Bounds(transforms[0].position, Vector3.zero);
-
-        bound.Encapsulate(transforms[0].position);
-
-        group.transform.position = bound.center;
+        else if (influence.name == other.name && groupLength < 3)
+        {
+            gameObjects.Remove(other.gameObject);
+            groupLength--;
+        }
     }
 }

@@ -6,7 +6,7 @@ public class ObjectPlacementEditor : Editor
 {
     public enum GameObjects
     {
-        Arbres, Champignons, Rochers, Buissons, Buttons, PréRendus, Autres
+        Arbres, Champignons, Rochers, Buissons, PréRendus, Autres
     }
 
     public GameObjects dropdown;
@@ -35,12 +35,8 @@ public class ObjectPlacementEditor : Editor
                 BuissonsGameObjects();
                 break;
 
-            case GameObjects.Buttons:
-                Button();
-                break;
-                
             case GameObjects.PréRendus:
-                PréRendu();
+                PréRendus();
                 break;
 
             case GameObjects.Autres:
@@ -82,42 +78,30 @@ public class ObjectPlacementEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_désert"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_montagne"));
     }
-
-    void Button()
-    {
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonArbres"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonChampignons"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonRochers"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonBuissons"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonPlaceHolder"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("buttonPlaceHolder1"));
-    }
-    void PréRendu()
+    void PréRendus()
     {
         
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_arbre_plaine"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_arbre_marais"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_arbre_désert"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_arbre_montagne"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_champignon_plaine"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_champignon_marais"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_champignon_désert"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_champignon_montagne"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_rocher_plaine"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_rocher_marais"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_rocher_désert"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_rocher_montagne"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_buisson_plaine"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_buisson_marais"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_buisson_désert"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("prérendu_buisson_montagne"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("arbre_plaine_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("arbre_marais_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("arbre_désert_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("arbre_montagne_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("champignon_plaine_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("champignon_marais_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("champignon_désert_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("champignon_montagne_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("rocher_plaine_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("rocher_marais_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("rocher_désert_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("rocher_montagne_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_plaine_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_marais_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_désert_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_montagne_prérendu"));
     }
 
     void AutresInfo()
     {
         EditorGUILayout.PropertyField(serializedObject.FindProperty("objectToDestroy"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("moveThis"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("hitLayers"));
-        EditorGUILayout.PropertyField(serializedObject.FindProperty("tak"));
     }
 }

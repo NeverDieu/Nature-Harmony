@@ -11,6 +11,8 @@ TagManager:
   - Inventaire
   - Button
   - Rocher
+  - Buisson
+  - Groups
   layers:
   - Default
   - TransparentFX
