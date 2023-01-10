@@ -145,7 +145,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.5
+  m_Radius: 5
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &3664406476934900363
 MonoBehaviour:
@@ -160,10 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameTag: 
-  id: 0
   influence: {fileID: 0}
-  numberOfGroups: 0
-  isInGroup: 0
   groupLength: 0
   gameObjects: []
 --- !u!1 &2512644627498008535
@@ -225,7 +222,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2512644627498008535}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 

@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1371121835220626770}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ObjectPlacement, Assembly-CSharp
         m_MethodName: Champignon
         m_Mode: 1
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1371121835220626770}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ObjectPlacement, Assembly-CSharp
         m_MethodName: Rocher
         m_Mode: 1
@@ -1066,7 +1066,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1371121835220626771}
-  - component: {fileID: 1371121835220626770}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -1095,55 +1094,6 @@ Transform:
   m_Father: {fileID: 1371121834605327583}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1371121835220626770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371121835220626768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 972e807aaec2bda408fc4ef5e4fd7836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arbre_plaine: {fileID: 7352225675264180048, guid: 231db2144fd94d14c84ebd1d807e5d3d, type: 3}
-  arbre_marais: {fileID: 5292542762846056729, guid: a50b9846b75509849819a6e7fc1ff1d7, type: 3}
-  "arbre_d\xE9sert": {fileID: 1297757837769466309, guid: 914ca165a0c5f254ebfd7448bc4c66a4, type: 3}
-  arbre_montagne: {fileID: 3852939848123433372, guid: e194f0c1589137848915e2d0e683bb27, type: 3}
-  champignon_plaine: {fileID: 3261624346071529006, guid: ae22b57b1d17f26419fe86ba61c3c9c7, type: 3}
-  champignon_marais: {fileID: 4961190880288279284, guid: e03b03d7581694c4e8da0a495baeb54f, type: 3}
-  "champignon_d\xE9sert": {fileID: 5492768928634241956, guid: bb3dd821b59dda04db99b5e265246efd, type: 3}
-  champignon_montagne: {fileID: 8108393329327890847, guid: 4b996839e93f24c4f9212788f01f5460, type: 3}
-  rocher_plaine: {fileID: 8829611317486835500, guid: f47ec4134ed1add41a1d69bd0b6ae6ec, type: 3}
-  rocher_marais: {fileID: 5542531548588658692, guid: 4a67826c2abe5ea4c968866c497bfb19, type: 3}
-  "rocher_d\xE9sert": {fileID: 550546694178206995, guid: b8f74634c0756764ebe576e3af0b5882, type: 3}
-  rocher_montagne: {fileID: 7167870894262376388, guid: 85f0238d4db81a042a8fb623a57f20c2, type: 3}
-  buisson_plaine: {fileID: 4812115851918360319, guid: 3d57b8283679d03498290c6e7d8c4b97, type: 3}
-  buisson_marais: {fileID: 1591566764623035688, guid: 83589703048bb0b43933ecfd14500bf8, type: 3}
-  "buisson_d\xE9sert": {fileID: 3210590107495628861, guid: f0b60637251cafe4890748961487d115, type: 3}
-  buisson_montagne: {fileID: 5501023091984679801, guid: 84810281b52af0f4cbb85a8e41dbbb5c, type: 3}
-  placeHolder: {fileID: 0}
-  objectToDestroy: {fileID: 0}
-  hitLayers:
-    serializedVersion: 2
-    m_Bits: 8
-  "arbre_plaine_pr\xE9rendu": {fileID: 7352225675264180048, guid: b3f7362ee20186240bb8ff23f503fe37, type: 3}
-  "arbre_marais_pr\xE9rendu": {fileID: 5292542762846056729, guid: 4e9c0e41b7e690947bb5a0fda683f02c, type: 3}
-  "arbre_d\xE9sert_pr\xE9rendu": {fileID: 3624839798184208007, guid: 770c27e3c0a49d041a6eb051c72b7b3b, type: 3}
-  "arbre_montagne_pr\xE9rendu": {fileID: 3852939848123433372, guid: ca9453c6e81073946a30556b7ccd779c, type: 3}
-  "champignon_plaine_pr\xE9rendu": {fileID: 7105825487659180372, guid: 6aa4f48e2d8c17f4ca2b4b40e59e1a41, type: 3}
-  "champignon_marais_pr\xE9rendu": {fileID: 3374484466648932860, guid: d310c1f9351f9b342b65b57d9e643ad8, type: 3}
-  "champignon_d\xE9sert_pr\xE9rendu": {fileID: 1248217620797363847, guid: 89af3db43fdd3be49a4d490c2187d1ce, type: 3}
-  "champignon_montagne_pr\xE9rendu": {fileID: 7724840459725107697, guid: 8b09ad73807962f458f409fb225f3c02, type: 3}
-  "rocher_plaine_pr\xE9rendu": {fileID: 5366970547986599905, guid: 9c01926a9ab6cf64c90559e35d58a5bf, type: 3}
-  "rocher_marais_pr\xE9rendu": {fileID: 2052646412645608463, guid: e96100cc14682cb43a8e68c86735fbe3, type: 3}
-  "rocher_d\xE9sert_pr\xE9rendu": {fileID: 5431008068158315016, guid: bfba7919270050b40a57f2207208ddbe, type: 3}
-  "rocher_montagne_pr\xE9rendu": {fileID: 4547934604316985154, guid: b7ec0393aff188d449211f9cd2a200fc, type: 3}
-  "buisson_plaine_pr\xE9rendu": {fileID: 2962645201144728271, guid: 24f95525959c94e409b7bf13113222e0, type: 3}
-  "buisson_marais_pr\xE9rendu": {fileID: 5297200234293586208, guid: 1d55c4c41ee8fc941bb6a5b2ba697ae8, type: 3}
-  "buisson_d\xE9sert_pr\xE9rendu": {fileID: 5040519280410869159, guid: beb1e176dae68864da2fef477685efc9, type: 3}
-  "buisson_montagne_pr\xE9rendu": {fileID: 5472692469890083168, guid: 918faf8bdc273e848a59c4360116076e, type: 3}
 --- !u!1 &1371121835338593691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,7 +1215,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1371121835220626770}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ObjectPlacement, Assembly-CSharp
         m_MethodName: Buisson
         m_Mode: 1
@@ -1398,7 +1348,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1371121835220626770}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ObjectPlacement, Assembly-CSharp
         m_MethodName: Arbre
         m_Mode: 1
