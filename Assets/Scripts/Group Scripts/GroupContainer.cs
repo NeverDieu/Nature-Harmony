@@ -61,6 +61,13 @@ public class GroupContainer : MonoBehaviour
             for (int i = 0; i < targets.Count; i++)
                 GetComponentInChildren<Transform>().GetChild(i).GetComponentInChildren<Outline>().enabled = false;
         }
+
+        if (Input.GetMouseButton(1))
+        {
+            hotLine = false;
+            for (int i = 0; i < targets.Count; i++)
+                GetComponentInChildren<Transform>().GetChild(i).GetComponentInChildren<Outline>().enabled = false;
+        }
     }
 
     public Vector3 GetCenterPoint()

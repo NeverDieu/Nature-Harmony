@@ -9,10 +9,9 @@ public class ObjectPlacement : MonoBehaviour
     champignon_plaine, champignon_marais, champignon_désert, champignon_montagne,
     rocher_plaine, rocher_marais, rocher_désert, rocher_montagne,
     buisson_plaine, buisson_marais, buisson_désert, buisson_montagne,
+    fleur_plaine, fleur_marais, fleur_désert, fleur_montagne,
     placeHolder, objectToDestroy;
 
-    //L'objet qui bouge
-    private Transform moveThis;
     //Quel Layers le Raycast peut toucher
     public LayerMask hitLayers;
     //Un rendu de l'objet qui va être placé
@@ -24,6 +23,8 @@ public class ObjectPlacement : MonoBehaviour
     public GameObject rocher_plaine_prérendu; public GameObject rocher_marais_prérendu; public GameObject rocher_désert_prérendu; public GameObject rocher_montagne_prérendu;
     [Header("Buisson")]
     public GameObject buisson_plaine_prérendu; public GameObject buisson_marais_prérendu; public GameObject buisson_désert_prérendu; public GameObject buisson_montagne_prérendu;
+    [Header("Fleur")]
+    public GameObject fleur_plaine_prérendu; public GameObject fleur_marais_prérendu; public GameObject fleur_désert_prérendu; public GameObject fleur_montagne_prérendu;
 
     private RaycastHit hit;
 
@@ -100,6 +101,15 @@ public class ObjectPlacement : MonoBehaviour
         Destroy(objectToDestroy);
 
         objectToDestroy = Instantiate(buisson_plaine_prérendu, spawnPoint, Quaternion.identity);
+
+        objectToDestroy.transform.parent = gameObject.transform;
+    }
+
+    public void Fleur()
+    {
+        Destroy(objectToDestroy);
+
+        objectToDestroy = Instantiate(fleur_plaine_prérendu, spawnPoint, Quaternion.identity);
 
         objectToDestroy.transform.parent = gameObject.transform;
     }
@@ -190,6 +200,26 @@ public class ObjectPlacement : MonoBehaviour
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(buisson_montagne, hit.point, Quaternion.identity);
+            }
+        }
+
+        if (objectToDestroy.CompareTag("Fleur"))
+        {
+            if (hit.collider.name == "Plaine")
+            {
+                Instantiate(fleur_plaine, hit.point, Quaternion.identity);
+            }
+            else if (hit.collider.name == "Marais")
+            {
+                Instantiate(fleur_marais, hit.point, Quaternion.identity);
+            }
+            else if (hit.collider.name == "Désert")
+            {
+                Instantiate(fleur_désert, hit.point, Quaternion.identity);
+            }
+            else if (hit.collider.name == "Montagne")
+            {
+                Instantiate(fleur_montagne, hit.point, Quaternion.identity);
             }
         }
     }
@@ -335,6 +365,42 @@ public class ObjectPlacement : MonoBehaviour
                 Destroy(objectToDestroy);
 
                 objectToDestroy = Instantiate(buisson_montagne_prérendu, spawnPoint, Quaternion.identity);
+
+                objectToDestroy.transform.parent = gameObject.transform;
+            }
+        }
+
+        if (objectToDestroy.CompareTag("Fleur"))
+        {
+            if (other.name == "Plaine")
+            {
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(fleur_plaine_prérendu, spawnPoint, Quaternion.identity);
+
+                objectToDestroy.transform.parent = gameObject.transform;
+            }
+            else if (other.name == "Marais")
+            {
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(fleur_marais_prérendu, spawnPoint, Quaternion.identity);
+
+                objectToDestroy.transform.parent = gameObject.transform;
+            }
+            else if (other.name == "Désert")
+            {
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(fleur_désert_prérendu, spawnPoint, Quaternion.identity);
+
+                objectToDestroy.transform.parent = gameObject.transform;
+            }
+            else if (other.name == "Montagne")
+            {
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(fleur_montagne_prérendu, spawnPoint, Quaternion.identity);
 
                 objectToDestroy.transform.parent = gameObject.transform;
             }

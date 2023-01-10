@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8681961534424942634
+--- !u!114 &-9214912602660056959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_F#4
+  m_Name: event:/Guitar/Guitar Plain/GP_N_E3
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_F#4
+  Path: event:/Guitar/Guitar Plain/GP_N_E3
   Guid:
-    Data1: -514233383
-    Data2: 1281844862
-    Data3: 879638917
-    Data4: 1336625214
+    Data1: -1634858049
+    Data2: 1230821603
+    Data3: 786792113
+    Data4: -978895249
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -27,412 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &-8549969533964701186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_9
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch3_9
-  Guid:
-    Data1: -894203662
-    Data2: 1340437915
-    Data3: 1519252872
-    Data4: 935967636
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &-8548606607715746257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_C5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_C5
-  Guid:
-    Data1: 1254131427
-    Data2: 1105491330
-    Data3: -382104939
-    Data4: -1319473400
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-7510228525711051121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_3
-  Guid:
-    Data1: -593533131
-    Data2: 1198688858
-    Data3: -2068064595
-    Data4: 1116459489
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &-7354848488727589537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_8
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_8
-  Guid:
-    Data1: 86631711
-    Data2: 1086521516
-    Data3: -707000902
-    Data4: 2016594192
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &-6963021202545813211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_8
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_8
-  Guid:
-    Data1: -1239865740
-    Data2: 1103088684
-    Data3: 244826044
-    Data4: -1043347384
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &-6852890167849224804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_F4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_F4
-  Guid:
-    Data1: 658784897
-    Data2: 1227521228
-    Data3: 656656564
-    Data4: -1062275322
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-6467678304246249833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_8
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch3_8
-  Guid:
-    Data1: 205267269
-    Data2: 1243896258
-    Data3: 215606156
-    Data4: 1788996711
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &-6046294325783995844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_Bb4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_Bb4
-  Guid:
-    Data1: -87899570
-    Data2: 1214297955
-    Data3: -1298918498
-    Data4: 217122690
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-6037114278368731974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_4
-  Guid:
-    Data1: 1669704877
-    Data2: 1175165411
-    Data3: -721130590
-    Data4: 1032916060
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &-5782004691321029692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_7
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_7
-  Guid:
-    Data1: -531352780
-    Data2: 1147753605
-    Data3: 2003368857
-    Data4: -1862695916
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &-5659932218666812309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_C3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_C3
-  Guid:
-    Data1: -1720225292
-    Data2: 1256547529
-    Data3: -1728288125
-    Data4: 665518745
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-5111370535164769639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_Eb4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_Eb4
-  Guid:
-    Data1: -762335865
-    Data2: 1209638435
-    Data3: 1265475998
-    Data4: -209797312
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-5099486220947192230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_D3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_D3
-  Guid:
-    Data1: 1753555304
-    Data2: 1163689150
-    Data3: 1139703193
-    Data4: -977895121
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-4995523598256035156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_G3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_G3
-  Guid:
-    Data1: -1180185854
-    Data2: 1259688437
-    Data3: -1971222368
-    Data4: 1163497400
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-4895591350838101139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_C#4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_C#4
-  Guid:
-    Data1: 2010505511
-    Data2: 1182330196
-    Data3: -366486132
-    Data4: 507262453
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-4812023311176477031
+--- !u!114 &-9105238371883436059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,27 +64,7 @@ MonoBehaviour:
   - Melody 11
   - Melody 12
   Exists: 1
---- !u!114 &-4808352515832779324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Music Generation/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638062697581315270
-  FileSizes:
-  - Name: Desktop
-    Value: 3392
-  Exists: 1
---- !u!114 &-4803567278885158131
+--- !u!114 &-9064636747840122951
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -499,25 +74,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_M
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_3
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_M
+  Path: event:/Guitar/Guitar Plain/GP_Ch1_3
   Guid:
-    Data1: -168549040
-    Data2: 1337819865
-    Data3: -1415543118
-    Data4: 1725318840
+    Data1: -247649817
+    Data2: 1087733701
+    Data3: -729811830
+    Data4: 828942419
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3846791902159657462}
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 370494
---- !u!114 &-4648601831490721322
+  Length: 28499
+--- !u!114 &-8984565655738265325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -527,16 +101,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_G#3
+  m_Name: event:/Guitar/Guitar Plain/GP_N_D4
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_G#3
+  Path: event:/Guitar/Guitar Plain/GP_N_D4
   Guid:
-    Data1: -1999048
-    Data2: 1340849315
-    Data3: -1776117368
-    Data4: 1285757082
+    Data1: 1100663983
+    Data2: 1277648808
+    Data3: -1089410926
+    Data4: -396295726
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -544,7 +118,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &-3846791902159657462
+--- !u!114 &-8458446570665189899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -553,35 +127,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GP_M/GP_Melody
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_8
   m_EditorClassIdentifier: 
-  Name: GP_Melody
-  StudioPath: 
-  Min: 0
-  Max: 12
-  Default: 0
-  ID:
-    data1: 2468299739
-    data2: 1680381402
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Melody 0
-  - Melody 1
-  - Melody 2
-  - Melody 3
-  - Melody 4
-  - Melody 5
-  - Melody 6
-  - Melody 7
-  - Melody 8
-  - Melody 9
-  - Melody 10
-  - Melody 11
-  - Melody 12
-  Exists: 1
---- !u!114 &-3769816227248767465
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_8
+  Guid:
+    Data1: 86631711
+    Data2: 1086521516
+    Data3: -707000902
+    Data4: 2016594192
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &-8292231424104653604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_9
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_9
+  Guid:
+    Data1: -2040874496
+    Data2: 1108778731
+    Data3: -1456478274
+    Data4: 1766151360
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-7974368764329617202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -618,7 +209,7 @@ MonoBehaviour:
   - Melody 11
   - Melody 12
   Exists: 1
---- !u!114 &-3599973570682139009
+--- !u!114 &-7944151094728304360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -628,233 +219,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_A3
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_7
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_A3
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_7
   Guid:
-    Data1: 122935140
-    Data2: 1231019254
-    Data3: -1569402181
-    Data4: -2029251162
+    Data1: -531352780
+    Data2: 1147753605
+    Data3: 2003368857
+    Data4: -1862695916
   Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-3527786392849186168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_B5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_B5
-  Guid:
-    Data1: 199765376
-    Data2: 1202578809
-    Data3: 803134641
-    Data4: -471058500
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-3490621535278548682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_Bb3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_Bb3
-  Guid:
-    Data1: 781526738
-    Data2: 1184631685
-    Data3: 1780415360
-    Data4: -668682106
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-3295708293937871099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_Eb5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_Eb5
-  Guid:
-    Data1: 2099543847
-    Data2: 1269714929
-    Data3: 284265877
-    Data4: 519024716
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-3251098727968424587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_6
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_6
-  Guid:
-    Data1: 1915274485
-    Data2: 1247655242
-    Data3: -519301469
-    Data4: 1744619193
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &-3145614104912390314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Desert/GD_M
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Desert/GD_M
-  Guid:
-    Data1: 407820540
-    Data2: 1178399131
-    Data3: 1158087310
-    Data4: -1406688931
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3769816227248767465}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 370494
---- !u!114 &-2704418384199084600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_7
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_7
-  Guid:
-    Data1: -767870975
-    Data2: 1079486356
-    Data3: 348539792
-    Data4: 650861777
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &-2304508689255839950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_F5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_F5
-  Guid:
-    Data1: 80038588
-    Data2: 1222689823
-    Data3: 585398664
-    Data4: -2058744749
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-1703063212487742038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_2
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_2
-  Guid:
-    Data1: 376308314
-    Data2: 1213236571
-    Data3: -1677995373
-    Data4: 1651601836
-  Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -862,446 +236,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 46262
---- !u!114 &-1692592568716375896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch3_5
-  Guid:
-    Data1: -411431631
-    Data2: 1101408465
-    Data3: 558492306
-    Data4: 1969611614
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &-1563362685580136043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_G#5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_G#5
-  Guid:
-    Data1: 1216382619
-    Data2: 1319773209
-    Data3: -1682381124
-    Data4: -991964470
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &-1493762809310674204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch1_3
-  Guid:
-    Data1: -247649817
-    Data2: 1087733701
-    Data3: -729811830
-    Data4: 828942419
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &-1276564072746515013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_2
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch1_2
-  Guid:
-    Data1: 2085307148
-    Data2: 1183291468
-    Data3: -1608006215
-    Data4: -1123388173
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &-749431460626955250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_E4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_E4
-  Guid:
-    Data1: 1188973215
-    Data2: 1267376507
-    Data3: -418767218
-    Data4: 1216196331
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -4808352515832779324}
-  - {fileID: 313250591114427283}
-  EditorEvents:
-  - {fileID: 4332053496606172011}
-  - {fileID: -2704418384199084600}
-  - {fileID: 1987709642204196923}
-  - {fileID: -4995523598256035156}
-  - {fileID: -1276564072746515013}
-  - {fileID: 8747720391665469455}
-  - {fileID: 2507788720635900054}
-  - {fileID: 8657823291887026888}
-  - {fileID: 4413278576208441818}
-  - {fileID: 5387894237510108566}
-  - {fileID: -7354848488727589537}
-  - {fileID: 9108789055605599348}
-  - {fileID: -3295708293937871099}
-  - {fileID: -4895591350838101139}
-  - {fileID: -1692592568716375896}
-  - {fileID: -5782004691321029692}
-  - {fileID: -7510228525711051121}
-  - {fileID: -4648601831490721322}
-  - {fileID: 3204130163271286128}
-  - {fileID: 695689667041022396}
-  - {fileID: -6467678304246249833}
-  - {fileID: 495353626814451137}
-  - {fileID: 1970841665436264581}
-  - {fileID: -6046294325783995844}
-  - {fileID: -4803567278885158131}
-  - {fileID: 7126734074960058547}
-  - {fileID: 2561700586320513288}
-  - {fileID: -1703063212487742038}
-  - {fileID: 8987042687258219392}
-  - {fileID: -3599973570682139009}
-  - {fileID: -5099486220947192230}
-  - {fileID: 2583499248641797131}
-  - {fileID: 8115225948801468805}
-  - {fileID: -6963021202545813211}
-  - {fileID: 9183052963691745520}
-  - {fileID: 1934384239650645862}
-  - {fileID: 6008736172177401200}
-  - {fileID: 7594594145766982995}
-  - {fileID: 3809343364158213228}
-  - {fileID: -3527786392849186168}
-  - {fileID: -6852890167849224804}
-  - {fileID: 3224463704347231058}
-  - {fileID: -5111370535164769639}
-  - {fileID: 8670433920221064230}
-  - {fileID: 6548358624054075228}
-  - {fileID: 5917576790165702803}
-  - {fileID: -1563362685580136043}
-  - {fileID: -749431460626955250}
-  - {fileID: 2621683200077658222}
-  - {fileID: -6037114278368731974}
-  - {fileID: 3981308930397716314}
-  - {fileID: 6305385339507016540}
-  - {fileID: 4113345509091239122}
-  - {fileID: 5814574565519326088}
-  - {fileID: -2304508689255839950}
-  - {fileID: 3645787322924603093}
-  - {fileID: 8093816417653545995}
-  - {fileID: 4335887043544821927}
-  - {fileID: -3490621535278548682}
-  - {fileID: -8681961534424942634}
-  - {fileID: 147986827488764304}
-  - {fileID: -8548606607715746257}
-  - {fileID: 8848526407754435525}
-  - {fileID: -1493762809310674204}
-  - {fileID: 6360098789713294419}
-  - {fileID: -8549969533964701186}
-  - {fileID: 8279945031717112178}
-  - {fileID: -5659932218666812309}
-  - {fileID: -3251098727968424587}
-  - {fileID: 3468490417849780176}
-  - {fileID: 3770597147850191187}
-  - {fileID: -3145614104912390314}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 313250591114427283}
-  StringsBanks:
-  - {fileID: -4808352515832779324}
-  cacheTime: 638062697581315270
-  cacheVersion: 131593
---- !u!114 &147986827488764304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_5
-  Guid:
-    Data1: 34647772
-    Data2: 1225495655
-    Data3: 1434214033
-    Data4: -509820195
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &313250591114427283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Music Generation/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638062697581185246
-  FileSizes:
-  - Name: Desktop
-    Value: 14902560
-  Exists: 1
---- !u!114 &495353626814451137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_5
-  Guid:
-    Data1: 1517133132
-    Data2: 1256274872
-    Data3: -173835351
-    Data4: 683484817
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &695689667041022396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_9
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_9
-  Guid:
-    Data1: -616666559
-    Data2: 1153185325
-    Data3: 658716549
-    Data4: -417737289
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &1934384239650645862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_3
-  Guid:
-    Data1: 1065962103
-    Data2: 1120184102
-    Data3: -1707350611
-    Data4: -587485917
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &1970841665436264581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_6
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch3_6
-  Guid:
-    Data1: -1406910642
-    Data2: 1186678574
-    Data3: -1031601491
-    Data4: -831117593
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &1987709642204196923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_D5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_D5
-  Guid:
-    Data1: 293358082
-    Data2: 1258342153
-    Data3: -1119479649
-    Data4: -187056426
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &2507788720635900054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_Eb3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_Eb3
-  Guid:
-    Data1: -1148423913
-    Data2: 1137094160
-    Data3: -462806860
-    Data4: 749512351
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &2561700586320513288
+--- !u!114 &-7877992820525475580
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1320,7 +255,7 @@ MonoBehaviour:
     Data3: -1302061920
     Data4: -987987393
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1328,441 +263,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &2583499248641797131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_F3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_F3
-  Guid:
-    Data1: -1017418647
-    Data2: 1214846882
-    Data3: -2122718061
-    Data4: -2042518822
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &2621683200077658222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_C4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_C4
-  Guid:
-    Data1: 983516067
-    Data2: 1341218581
-    Data3: 956954261
-    Data4: -1202195004
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &3204130163271286128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch1_5
-  Guid:
-    Data1: 1053875008
-    Data2: 1095170010
-    Data3: 509944229
-    Data4: -1580399094
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &3224463704347231058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_B3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_B3
-  Guid:
-    Data1: -556627582
-    Data2: 1171849500
-    Data3: -419080016
-    Data4: 25004097
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &3468490417849780176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_G4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_G4
-  Guid:
-    Data1: 1149600758
-    Data2: 1218182876
-    Data3: 1131664286
-    Data4: 769983855
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &3645787322924603093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_E3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_E3
-  Guid:
-    Data1: -1634858049
-    Data2: 1230821603
-    Data3: 786792113
-    Data4: -978895249
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &3770597147850191187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_8
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch1_8
-  Guid:
-    Data1: -848132101
-    Data2: 1279292732
-    Data3: 85564582
-    Data4: 1547575490
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &3809343364158213228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_C#3
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_C#3
-  Guid:
-    Data1: 777551740
-    Data2: 1129002618
-    Data3: -11005780
-    Data4: -1804982731
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &3981308930397716314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_D4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_D4
-  Guid:
-    Data1: 1100663983
-    Data2: 1277648808
-    Data3: -1089410926
-    Data4: -396295726
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &4113345509091239122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_7
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch1_7
-  Guid:
-    Data1: -198965318
-    Data2: 1243734128
-    Data3: -1874153574
-    Data4: -1995276966
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &4332053496606172011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_9
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_9
-  Guid:
-    Data1: -2040874496
-    Data2: 1108778731
-    Data3: -1456478274
-    Data4: 1766151360
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &4335887043544821927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_A4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_A4
-  Guid:
-    Data1: -941991731
-    Data2: 1133011060
-    Data3: 286288026
-    Data4: 1746127278
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &4413278576208441818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Mountain/GM_M
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Mountain/GM_M
-  Guid:
-    Data1: 445532955
-    Data2: 1292588769
-    Data3: -1524526974
-    Data4: -2014619992
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -4812023311176477031}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 370494
---- !u!114 &5387894237510108566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_2
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch3_2
-  Guid:
-    Data1: 483101726
-    Data2: 1215218349
-    Data3: 1660289438
-    Data4: -1563621722
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &5814574565519326088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Swamp/GS_M
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Swamp/GS_M
-  Guid:
-    Data1: 1584001723
-    Data2: 1297972820
-    Data3: 446019496
-    Data4: -838409121
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 8621139024575741610}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 370494
---- !u!114 &5917576790165702803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_7
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch3_7
-  Guid:
-    Data1: 762159511
-    Data2: 1081968997
-    Data3: -1631740996
-    Data4: -1186893423
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &6008736172177401200
+--- !u!114 &-7601059473769561850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1781,7 +282,7 @@ MonoBehaviour:
     Data3: 1253731977
     Data4: 1218742104
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1789,7 +290,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &6305385339507016540
+--- !u!114 &-7239133047711924007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1799,70 +300,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_6
+  m_Name: event:/Guitar/Guitar Plain/GP_N_B4
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch1_6
+  Path: event:/Guitar/Guitar Plain/GP_N_B4
   Guid:
-    Data1: -533420110
-    Data2: 1193585793
-    Data3: 677096335
-    Data4: -15865095
+    Data1: 2031813258
+    Data2: 1205246293
+    Data3: -586783812
+    Data4: 464695078
   Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &6360098789713294419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_4
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_4
-  Guid:
-    Data1: -1530446872
-    Data2: 1291228192
-    Data3: 1421042098
-    Data4: 284891277
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &6548358624054075228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_A5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_A5
-  Guid:
-    Data1: -1610263149
-    Data2: 1276288170
-    Data3: 1835697063
-    Data4: 1978049606
-  Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1870,115 +317,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &7126734074960058547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_6
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch2_6
-  Guid:
-    Data1: -1549012654
-    Data2: 1191678056
-    Data3: -1447978573
-    Data4: 258901643
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 46262
---- !u!114 &7594594145766982995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_2
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch4_2
-  Guid:
-    Data1: -1454736775
-    Data2: 1133002732
-    Data3: 694769075
-    Data4: -1804487447
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &8093816417653545995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_9
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_Ch1_9
-  Guid:
-    Data1: -937798708
-    Data2: 1220714040
-    Data3: -1808279122
-    Data4: -891966267
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28499
---- !u!114 &8115225948801468805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_F#5
-  m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_F#5
-  Guid:
-    Data1: -1653280912
-    Data2: 1306392428
-    Data3: -949018193
-    Data4: 920801297
-  Banks:
-  - {fileID: 313250591114427283}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3604
---- !u!114 &8279945031717112178
+--- !u!114 &-7221581647492133034
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1997,7 +336,7 @@ MonoBehaviour:
     Data3: 1090192297
     Data4: 30334841
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2005,7 +344,568 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &8621139024575741610
+--- !u!114 &-7126694420747572875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_D5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_D5
+  Guid:
+    Data1: 293358082
+    Data2: 1258342153
+    Data3: -1119479649
+    Data4: -187056426
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-7090991041877200018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_8
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch3_8
+  Guid:
+    Data1: 205267269
+    Data2: 1243896258
+    Data3: 215606156
+    Data4: 1788996711
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &-6948913801126133872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Music Generation/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638062694973786195
+  FileSizes:
+  - Name: Desktop
+    Value: 14902560
+  Exists: 1
+--- !u!114 &-6822853997416458555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_2
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch1_2
+  Guid:
+    Data1: 2085307148
+    Data2: 1183291468
+    Data3: -1608006215
+    Data4: -1123388173
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-6781005198037049345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_C#4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_C#4
+  Guid:
+    Data1: 2010505511
+    Data2: 1182330196
+    Data3: -366486132
+    Data4: 507262453
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-6267088597413358328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_F3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_F3
+  Guid:
+    Data1: -1017418647
+    Data2: 1214846882
+    Data3: -2122718061
+    Data4: -2042518822
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-5860802608671320165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_Eb4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_Eb4
+  Guid:
+    Data1: -762335865
+    Data2: 1209638435
+    Data3: 1265475998
+    Data4: -209797312
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-5747083803953494876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_G5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_G5
+  Guid:
+    Data1: 683190756
+    Data2: 1310887997
+    Data3: 1595517839
+    Data4: -681003539
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-5732332912333464345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_7
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch1_7
+  Guid:
+    Data1: -198965318
+    Data2: 1243734128
+    Data3: -1874153574
+    Data4: -1995276966
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-5488999739209107470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_2
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_2
+  Guid:
+    Data1: -1454736775
+    Data2: 1133002732
+    Data3: 694769075
+    Data4: -1804487447
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-5418974956586022073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_4
+  Guid:
+    Data1: 1669704877
+    Data2: 1175165411
+    Data3: -721130590
+    Data4: 1032916060
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-5410489065098002559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_3
+  Guid:
+    Data1: 1065962103
+    Data2: 1120184102
+    Data3: -1707350611
+    Data4: -587485917
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-5409235573505257138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_B5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_B5
+  Guid:
+    Data1: 199765376
+    Data2: 1202578809
+    Data3: 803134641
+    Data4: -471058500
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-5316692444200189697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_5
+  Guid:
+    Data1: 1517133132
+    Data2: 1256274872
+    Data3: -173835351
+    Data4: 683484817
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-4641388684288094944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_9
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch3_9
+  Guid:
+    Data1: -894203662
+    Data2: 1340437915
+    Data3: 1519252872
+    Data4: 935967636
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &-4526802183364775743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_5
+  Guid:
+    Data1: 34647772
+    Data2: 1225495655
+    Data3: 1434214033
+    Data4: -509820195
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &-4477652743544155477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_A3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_A3
+  Guid:
+    Data1: 122935140
+    Data2: 1231019254
+    Data3: -1569402181
+    Data4: -2029251162
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-4298425864357405464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_B3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_B3
+  Guid:
+    Data1: -556627582
+    Data2: 1171849500
+    Data3: -419080016
+    Data4: 25004097
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-3875952890306186491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Desert/GD_M
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Desert/GD_M
+  Guid:
+    Data1: 407820540
+    Data2: 1178399131
+    Data3: 1158087310
+    Data4: -1406688931
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7974368764329617202}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370494
+--- !u!114 &-3696090560656653423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_E5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_E5
+  Guid:
+    Data1: 1904287001
+    Data2: 1244684245
+    Data3: -1996256363
+    Data4: 709400003
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-3505468801437910542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_C3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_C3
+  Guid:
+    Data1: -1720225292
+    Data2: 1256547529
+    Data3: -1728288125
+    Data4: 665518745
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-2725887681822891139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2042,7 +942,7 @@ MonoBehaviour:
   - Melody 11
   - Melody 12
   Exists: 1
---- !u!114 &8657823291887026888
+--- !u!114 &-1885141270287358724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2052,16 +952,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_E5
+  m_Name: event:/Guitar/Guitar Plain/GP_N_D3
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_E5
+  Path: event:/Guitar/Guitar Plain/GP_N_D3
   Guid:
-    Data1: 1904287001
-    Data2: 1244684245
-    Data3: -1996256363
-    Data4: 709400003
+    Data1: 1753555304
+    Data2: 1163689150
+    Data3: 1139703193
+    Data4: -977895121
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2069,7 +969,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &8670433920221064230
+--- !u!114 &-1853294468237837897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Music Generation/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638062694973817023
+  FileSizes:
+  - Name: Desktop
+    Value: 3392
+  Exists: 1
+--- !u!114 &-1344808049147343483
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2079,16 +999,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_B4
+  m_Name: event:/Guitar/Guitar Plain/GP_N_Eb5
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_B4
+  Path: event:/Guitar/Guitar Plain/GP_N_Eb5
   Guid:
-    Data1: 2031813258
-    Data2: 1205246293
-    Data3: -586783812
-    Data4: 464695078
+    Data1: 2099543847
+    Data2: 1269714929
+    Data3: 284265877
+    Data4: 519024716
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2096,7 +1016,89 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &8747720391665469455
+--- !u!114 &-1111429537136573257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_6
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_6
+  Guid:
+    Data1: 1915274485
+    Data2: 1247655242
+    Data3: -519301469
+    Data4: 1744619193
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-1015001695382759230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_C#3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_C#3
+  Guid:
+    Data1: 777551740
+    Data2: 1129002618
+    Data3: -11005780
+    Data4: -1804982731
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &-917161284802839208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Mountain/GM_M
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Mountain/GM_M
+  Guid:
+    Data1: 445532955
+    Data2: 1292588769
+    Data3: -1524526974
+    Data4: -2014619992
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -9105238371883436059}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370494
+--- !u!114 &-867381636230778745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2115,7 +1117,7 @@ MonoBehaviour:
     Data3: -2099103849
     Data4: 48021859
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -2123,7 +1125,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 46262
---- !u!114 &8848526407754435525
+--- !u!114 &-860078914194762114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2133,16 +1135,70 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Guitar/Guitar Plain/GP_N_G5
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_5
   m_EditorClassIdentifier: 
-  Path: event:/Guitar/Guitar Plain/GP_N_G5
+  Path: event:/Guitar/Guitar Plain/GP_Ch3_5
   Guid:
-    Data1: 683190756
-    Data2: 1310887997
-    Data3: 1595517839
-    Data4: -681003539
+    Data1: -411431631
+    Data2: 1101408465
+    Data3: 558492306
+    Data4: 1969611614
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &-497610789734548741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_8
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch1_8
+  Guid:
+    Data1: -848132101
+    Data2: 1279292732
+    Data3: 85564582
+    Data4: 1547575490
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &-268656736195417274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_Eb3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_Eb3
+  Guid:
+    Data1: -1148423913
+    Data2: 1137094160
+    Data3: -462806860
+    Data4: 749512351
+  Banks:
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2150,7 +1206,129 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &8987042687258219392
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1853294468237837897}
+  - {fileID: -6948913801126133872}
+  EditorEvents:
+  - {fileID: -8292231424104653604}
+  - {fileID: 7339174536546271796}
+  - {fileID: -7126694420747572875}
+  - {fileID: 4987849730705728811}
+  - {fileID: -6822853997416458555}
+  - {fileID: -867381636230778745}
+  - {fileID: -268656736195417274}
+  - {fileID: -3696090560656653423}
+  - {fileID: -917161284802839208}
+  - {fileID: 8138224620846345554}
+  - {fileID: -8458446570665189899}
+  - {fileID: 4517643481591517260}
+  - {fileID: -1344808049147343483}
+  - {fileID: -6781005198037049345}
+  - {fileID: -860078914194762114}
+  - {fileID: -7944151094728304360}
+  - {fileID: 4634963772283518104}
+  - {fileID: 6167589380680832129}
+  - {fileID: 2123601997801397437}
+  - {fileID: 5319122570727570556}
+  - {fileID: -7090991041877200018}
+  - {fileID: -5316692444200189697}
+  - {fileID: 1169195691016432735}
+  - {fileID: 4579383588088781559}
+  - {fileID: 9011983782873482449}
+  - {fileID: 3054484963596704740}
+  - {fileID: -7877992820525475580}
+  - {fileID: 433449104973554462}
+  - {fileID: 657881437887023586}
+  - {fileID: -4477652743544155477}
+  - {fileID: -1885141270287358724}
+  - {fileID: -6267088597413358328}
+  - {fileID: 4714129189328371747}
+  - {fileID: 8543267377543352424}
+  - {fileID: 8096615313261605736}
+  - {fileID: -5410489065098002559}
+  - {fileID: -7601059473769561850}
+  - {fileID: -5488999739209107470}
+  - {fileID: -1015001695382759230}
+  - {fileID: -5409235573505257138}
+  - {fileID: 4183388282330772348}
+  - {fileID: -4298425864357405464}
+  - {fileID: -5860802608671320165}
+  - {fileID: -7239133047711924007}
+  - {fileID: 7108011529071237294}
+  - {fileID: 1608624554520935769}
+  - {fileID: 7446989187462512514}
+  - {fileID: 5727452008843494832}
+  - {fileID: 2605844185658992704}
+  - {fileID: -5418974956586022073}
+  - {fileID: -8984565655738265325}
+  - {fileID: 5339133983006282583}
+  - {fileID: -5732332912333464345}
+  - {fileID: 4895421329357501458}
+  - {fileID: 6151774179040626885}
+  - {fileID: -9214912602660056959}
+  - {fileID: 2816808129995309681}
+  - {fileID: 3274377368117135912}
+  - {fileID: 4001577576559907895}
+  - {fileID: 6427462882416120989}
+  - {fileID: -4526802183364775743}
+  - {fileID: 3896583116084169312}
+  - {fileID: -5747083803953494876}
+  - {fileID: -9064636747840122951}
+  - {fileID: 973675048310349104}
+  - {fileID: -4641388684288094944}
+  - {fileID: -7221581647492133034}
+  - {fileID: -3505468801437910542}
+  - {fileID: -1111429537136573257}
+  - {fileID: 7325347875634461077}
+  - {fileID: -497610789734548741}
+  - {fileID: -3875952890306186491}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6948913801126133872}
+  StringsBanks:
+  - {fileID: -1853294468237837897}
+  cacheTime: 638062694973817023
+  cacheVersion: 131593
+--- !u!114 &433449104973554462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_2
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_2
+  Guid:
+    Data1: 376308314
+    Data2: 1213236571
+    Data3: -1677995373
+    Data4: 1651601836
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &657881437887023586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2169,7 +1347,7 @@ MonoBehaviour:
     Data3: -83586126
     Data4: 2058094995
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -2177,7 +1355,304 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 46262
---- !u!114 &9108789055605599348
+--- !u!114 &973675048310349104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_4
+  Guid:
+    Data1: -1530446872
+    Data2: 1291228192
+    Data3: 1421042098
+    Data4: 284891277
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &1169195691016432735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_6
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch3_6
+  Guid:
+    Data1: -1406910642
+    Data2: 1186678574
+    Data3: -1031601491
+    Data4: -831117593
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &1608624554520935769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_7
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch3_7
+  Guid:
+    Data1: 762159511
+    Data2: 1081968997
+    Data3: -1631740996
+    Data4: -1186893423
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &2123601997801397437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch1_5
+  Guid:
+    Data1: 1053875008
+    Data2: 1095170010
+    Data3: 509944229
+    Data4: -1580399094
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &2605844185658992704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_C4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_C4
+  Guid:
+    Data1: 983516067
+    Data2: 1341218581
+    Data3: 956954261
+    Data4: -1202195004
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &2816808129995309681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_9
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch1_9
+  Guid:
+    Data1: -937798708
+    Data2: 1220714040
+    Data3: -1808279122
+    Data4: -891966267
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &3054484963596704740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_6
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_6
+  Guid:
+    Data1: -1549012654
+    Data2: 1191678056
+    Data3: -1447978573
+    Data4: 258901643
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &3274377368117135912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_A4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_A4
+  Guid:
+    Data1: -941991731
+    Data2: 1133011060
+    Data3: 286288026
+    Data4: 1746127278
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &3896583116084169312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_C5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_C5
+  Guid:
+    Data1: 1254131427
+    Data2: 1105491330
+    Data3: -382104939
+    Data4: -1319473400
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &4001577576559907895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_Bb3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_Bb3
+  Guid:
+    Data1: 781526738
+    Data2: 1184631685
+    Data3: 1780415360
+    Data4: -668682106
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &4183388282330772348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_F4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_F4
+  Guid:
+    Data1: 658784897
+    Data2: 1227521228
+    Data3: 656656564
+    Data4: -1062275322
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &4517643481591517260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2196,7 +1671,7 @@ MonoBehaviour:
     Data3: 1594393227
     Data4: 1032179590
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2204,7 +1679,450 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3604
---- !u!114 &9183052963691745520
+--- !u!114 &4579383588088781559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_Bb4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_Bb4
+  Guid:
+    Data1: -87899570
+    Data2: 1214297955
+    Data3: -1298918498
+    Data4: 217122690
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &4634963772283518104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_3
+  Guid:
+    Data1: -593533131
+    Data2: 1198688858
+    Data3: -2068064595
+    Data4: 1116459489
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &4714129189328371747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_F#5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_F#5
+  Guid:
+    Data1: -1653280912
+    Data2: 1306392428
+    Data3: -949018193
+    Data4: 920801297
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &4895421329357501458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Swamp/GS_M
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Swamp/GS_M
+  Guid:
+    Data1: 1584001723
+    Data2: 1297972820
+    Data3: 446019496
+    Data4: -838409121
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2725887681822891139}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370494
+--- !u!114 &4987849730705728811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_G3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_G3
+  Guid:
+    Data1: -1180185854
+    Data2: 1259688437
+    Data3: -1971222368
+    Data4: 1163497400
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &5319122570727570556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch2_9
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch2_9
+  Guid:
+    Data1: -616666559
+    Data2: 1153185325
+    Data3: 658716549
+    Data4: -417737289
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &5339133983006282583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch1_6
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch1_6
+  Guid:
+    Data1: -533420110
+    Data2: 1193585793
+    Data3: 677096335
+    Data4: -15865095
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &5727452008843494832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_E4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_E4
+  Guid:
+    Data1: 1188973215
+    Data2: 1267376507
+    Data3: -418767218
+    Data4: 1216196331
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &6151774179040626885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_F5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_F5
+  Guid:
+    Data1: 80038588
+    Data2: 1222689823
+    Data3: 585398664
+    Data4: -2058744749
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &6167589380680832129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_G#3
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_G#3
+  Guid:
+    Data1: -1999048
+    Data2: 1340849315
+    Data3: -1776117368
+    Data4: 1285757082
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &6427462882416120989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_F#4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_F#4
+  Guid:
+    Data1: -514233383
+    Data2: 1281844862
+    Data3: 879638917
+    Data4: 1336625214
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &6840099820104922454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GP_M/GP_Melody
+  m_EditorClassIdentifier: 
+  Name: GP_Melody
+  StudioPath: 
+  Min: 0
+  Max: 12
+  Default: 0
+  ID:
+    data1: 2468299739
+    data2: 1680381402
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Melody 0
+  - Melody 1
+  - Melody 2
+  - Melody 3
+  - Melody 4
+  - Melody 5
+  - Melody 6
+  - Melody 7
+  - Melody 8
+  - Melody 9
+  - Melody 10
+  - Melody 11
+  - Melody 12
+  Exists: 1
+--- !u!114 &7108011529071237294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_A5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_A5
+  Guid:
+    Data1: -1610263149
+    Data2: 1276288170
+    Data3: 1835697063
+    Data4: 1978049606
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &7325347875634461077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_G4
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_G4
+  Guid:
+    Data1: 1149600758
+    Data2: 1218182876
+    Data3: 1131664286
+    Data4: 769983855
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &7339174536546271796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_7
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_7
+  Guid:
+    Data1: -767870975
+    Data2: 1079486356
+    Data3: 348539792
+    Data4: 650861777
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &7446989187462512514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_N_G#5
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_N_G#5
+  Guid:
+    Data1: 1216382619
+    Data2: 1319773209
+    Data3: -1682381124
+    Data4: -991964470
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3604
+--- !u!114 &8096615313261605736
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2223,7 +2141,7 @@ MonoBehaviour:
     Data3: 1267040137
     Data4: -972101313
   Banks:
-  - {fileID: 313250591114427283}
+  - {fileID: -6948913801126133872}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -2231,3 +2149,85 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 28499
+--- !u!114 &8138224620846345554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch3_2
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch3_2
+  Guid:
+    Data1: 483101726
+    Data2: 1215218349
+    Data3: 1660289438
+    Data4: -1563621722
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46262
+--- !u!114 &8543267377543352424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_Ch4_8
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_Ch4_8
+  Guid:
+    Data1: -1239865740
+    Data2: 1103088684
+    Data3: 244826044
+    Data4: -1043347384
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28499
+--- !u!114 &9011983782873482449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guitar/Guitar Plain/GP_M
+  m_EditorClassIdentifier: 
+  Path: event:/Guitar/Guitar Plain/GP_M
+  Guid:
+    Data1: -168549040
+    Data2: 1337819865
+    Data3: -1415543118
+    Data4: 1725318840
+  Banks:
+  - {fileID: -6948913801126133872}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6840099820104922454}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 370494

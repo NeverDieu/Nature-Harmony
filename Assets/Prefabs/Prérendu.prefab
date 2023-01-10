@@ -91,6 +91,10 @@ MonoBehaviour:
   buisson_marais: {fileID: 1591566764623035688, guid: 83589703048bb0b43933ecfd14500bf8, type: 3}
   "buisson_d\xE9sert": {fileID: 5501023091984679801, guid: 84810281b52af0f4cbb85a8e41dbbb5c, type: 3}
   buisson_montagne: {fileID: 4812115851918360319, guid: 3d57b8283679d03498290c6e7d8c4b97, type: 3}
+  fleur_plaine: {fileID: 344806781159238020, guid: 3ed7e71fcf1aa6344b02a2e68f3e3e06, type: 3}
+  fleur_marais: {fileID: 344806781159238020, guid: 3aa8ffaa723cf1946a66a2f25acd8e14, type: 3}
+  "fleur_d\xE9sert": {fileID: 344806781159238020, guid: ce3e1a155fbcada4cad699b3010d275c, type: 3}
+  fleur_montagne: {fileID: 344806781159238020, guid: be0f592a5339f4a429416c9cc8b8f85e, type: 3}
   placeHolder: {fileID: 0}
   objectToDestroy: {fileID: 0}
   hitLayers:
@@ -112,3 +116,7 @@ MonoBehaviour:
   "buisson_marais_pr\xE9rendu": {fileID: 5297200234293586208, guid: 1d55c4c41ee8fc941bb6a5b2ba697ae8, type: 3}
   "buisson_d\xE9sert_pr\xE9rendu": {fileID: 5040519280410869159, guid: beb1e176dae68864da2fef477685efc9, type: 3}
   "buisson_montagne_pr\xE9rendu": {fileID: 5472692469890083168, guid: 918faf8bdc273e848a59c4360116076e, type: 3}
+  "fleur_plaine_pr\xE9rendu": {fileID: 6836340043061091086, guid: dbe71610e5051b94094b313311c7e31d, type: 3}
+  "fleur_marais_pr\xE9rendu": {fileID: 6836340043061091086, guid: 0d6ac29522527b94a9c3ac7c7aeb099c, type: 3}
+  "fleur_d\xE9sert_pr\xE9rendu": {fileID: 6836340043061091086, guid: 96c9bccb41be4b64ea5f22fcf67bc47e, type: 3}
+  "fleur_montagne_pr\xE9rendu": {fileID: 6836340043061091086, guid: 05bb2655ed8b029498c24f8f0c802901, type: 3}

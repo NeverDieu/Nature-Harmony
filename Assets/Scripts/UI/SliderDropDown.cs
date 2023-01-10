@@ -35,18 +35,19 @@ public class SliderDropDown : MonoBehaviour
     {
         if (myToggle.isOn)
         {
-            target = new Vector3(-352f, 87f, 0f);
-            panelTransform.localPosition = Vector3.MoveTowards(panelTransform.localPosition, target, Time.deltaTime * speed);
-            inventoryTransform.localPosition = Vector3.MoveTowards(inventoryTransform.localPosition, target, Time.deltaTime * speed);
+            target = new Vector3(-358f, 115f, 0f);
+            var inventoryTarget = new Vector3(-358f, 60f, 0f);
+            panelTransform.localPosition= Vector3.MoveTowards(panelTransform.localPosition, target, Time.deltaTime * speed);
+            inventoryTransform.localPosition = Vector3.MoveTowards(inventoryTransform.localPosition, inventoryTarget, Time.deltaTime * speed);
             rightArrow.enabled = false;
             leftArrow.enabled = true;
         }
         else
         {
-            target = new Vector3(-433f, 87f, 0f);
+            target = new Vector3(-430f, 115f, 0f);
+            var inventoryTarget = new Vector3(-430f, 60f, 0f);
             panelTransform.localPosition = Vector3.MoveTowards(panelTransform.localPosition, target, Time.deltaTime * speed);
-            inventoryTransform.localPosition = Vector3.MoveTowards(inventoryTransform.localPosition, target, Time.deltaTime * speed);
-            rightArrow.enabled = true;
+            inventoryTransform.localPosition = Vector3.MoveTowards(inventoryTransform.localPosition, inventoryTarget, Time.deltaTime * speed);
             leftArrow.enabled = false;
 
         }

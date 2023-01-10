@@ -13,6 +13,7 @@ TagManager:
   - Rocher
   - Buisson
   - Groups
+  - Fleur
   layers:
   - Default
   - TransparentFX

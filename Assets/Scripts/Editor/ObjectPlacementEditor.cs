@@ -6,7 +6,7 @@ public class ObjectPlacementEditor : Editor
 {
     public enum GameObjects
     {
-        Arbres, Champignons, Rochers, Buissons, PréRendus, Autres
+        Arbres, Champignons, Rochers, Buissons, Fleurs, PréRendus, Autres
     }
 
     public GameObjects dropdown;
@@ -33,6 +33,10 @@ public class ObjectPlacementEditor : Editor
 
             case GameObjects.Buissons:
                 BuissonsGameObjects();
+                break;
+
+            case GameObjects.Fleurs:
+                FleursGameObjects();
                 break;
 
             case GameObjects.PréRendus:
@@ -78,6 +82,13 @@ public class ObjectPlacementEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_désert"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_montagne"));
     }
+    void FleursGameObjects()
+    {
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_plaine"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_marais"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_désert"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_montagne"));
+    }
     void PréRendus()
     {
         
@@ -97,6 +108,10 @@ public class ObjectPlacementEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_marais_prérendu"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_désert_prérendu"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("buisson_montagne_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_plaine_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_marais_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_désert_prérendu"));
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_montagne_prérendu"));
     }
 
     void AutresInfo()
