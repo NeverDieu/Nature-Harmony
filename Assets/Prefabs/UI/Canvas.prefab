@@ -698,7 +698,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -34.1, y: 85.09873}
+  m_AnchoredPosition: {x: -33, y: 116}
   m_SizeDelta: {x: 779, y: 448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1371121834311048218
@@ -918,8 +918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -392.65292, y: 210.5}
-  m_SizeDelta: {x: 15.0972, y: 20}
+  m_AnchoredPosition: {x: -392.65292, y: 239.5}
+  m_SizeDelta: {x: 15.0971985, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371121834880447794
 MonoBehaviour:
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   champignon_plaine: {fileID: 3261624346071529006, guid: ae22b57b1d17f26419fe86ba61c3c9c7, type: 3}
   champignon_marais: {fileID: 4961190880288279284, guid: e03b03d7581694c4e8da0a495baeb54f, type: 3}
   "champignon_d\xE9sert": {fileID: 5492768928634241956, guid: bb3dd821b59dda04db99b5e265246efd, type: 3}
-  champignon_montagne: {fileID: 4159423743791530499, guid: 54f350a4270739941b7a48a1dfa43998, type: 3}
+  champignon_montagne: {fileID: 8108393329327890847, guid: 4b996839e93f24c4f9212788f01f5460, type: 3}
   rocher_plaine: {fileID: 8829611317486835500, guid: f47ec4134ed1add41a1d69bd0b6ae6ec, type: 3}
   rocher_marais: {fileID: 5542531548588658692, guid: 4a67826c2abe5ea4c968866c497bfb19, type: 3}
   "rocher_d\xE9sert": {fileID: 550546694178206995, guid: b8f74634c0756764ebe576e3af0b5882, type: 3}
@@ -1125,27 +1125,25 @@ MonoBehaviour:
   buisson_montagne: {fileID: 5501023091984679801, guid: 84810281b52af0f4cbb85a8e41dbbb5c, type: 3}
   placeHolder: {fileID: 0}
   objectToDestroy: {fileID: 0}
-  moveThis: {fileID: 0}
   hitLayers:
     serializedVersion: 2
     m_Bits: 8
-  "pr\xE9rendu_arbre_plaine": {fileID: 7352225675264180048, guid: 845769e5a82aff24a851b9e5b614e7ee, type: 3}
-  "pr\xE9rendu_arbre_marais": {fileID: 5292542762846056729, guid: 4e9c0e41b7e690947bb5a0fda683f02c, type: 3}
-  "pr\xE9rendu_arbre_d\xE9sert": {fileID: 3624839798184208007, guid: 770c27e3c0a49d041a6eb051c72b7b3b, type: 3}
-  "pr\xE9rendu_arbre_montagne": {fileID: 3852939848123433372, guid: ca9453c6e81073946a30556b7ccd779c, type: 3}
-  "pr\xE9rendu_champignon_plaine": {fileID: 7105825487659180372, guid: 6aa4f48e2d8c17f4ca2b4b40e59e1a41, type: 3}
-  "pr\xE9rendu_champignon_marais": {fileID: 3374484466648932860, guid: d310c1f9351f9b342b65b57d9e643ad8, type: 3}
-  "pr\xE9rendu_champignon_d\xE9sert": {fileID: 1248217620797363847, guid: 89af3db43fdd3be49a4d490c2187d1ce, type: 3}
-  "pr\xE9rendu_champignon_montagne": {fileID: 7724840459725107697, guid: 8b09ad73807962f458f409fb225f3c02, type: 3}
-  "pr\xE9rendu_rocher_plaine": {fileID: 5366970547986599905, guid: 9c01926a9ab6cf64c90559e35d58a5bf, type: 3}
-  "pr\xE9rendu_rocher_marais": {fileID: 2052646412645608463, guid: e96100cc14682cb43a8e68c86735fbe3, type: 3}
-  "pr\xE9rendu_rocher_d\xE9sert": {fileID: 5431008068158315016, guid: bfba7919270050b40a57f2207208ddbe, type: 3}
-  "pr\xE9rendu_rocher_montagne": {fileID: 4547934604316985154, guid: b7ec0393aff188d449211f9cd2a200fc, type: 3}
-  "pr\xE9rendu_buisson_plaine": {fileID: 2962645201144728271, guid: 24f95525959c94e409b7bf13113222e0, type: 3}
-  "pr\xE9rendu_buisson_marais": {fileID: 5297200234293586208, guid: 1d55c4c41ee8fc941bb6a5b2ba697ae8, type: 3}
-  "pr\xE9rendu_buisson_d\xE9sert": {fileID: 5040519280410869159, guid: beb1e176dae68864da2fef477685efc9, type: 3}
-  "pr\xE9rendu_buisson_montagne": {fileID: 5472692469890083168, guid: 918faf8bdc273e848a59c4360116076e, type: 3}
-  tak: 
+  "arbre_plaine_pr\xE9rendu": {fileID: 7352225675264180048, guid: b3f7362ee20186240bb8ff23f503fe37, type: 3}
+  "arbre_marais_pr\xE9rendu": {fileID: 5292542762846056729, guid: 4e9c0e41b7e690947bb5a0fda683f02c, type: 3}
+  "arbre_d\xE9sert_pr\xE9rendu": {fileID: 3624839798184208007, guid: 770c27e3c0a49d041a6eb051c72b7b3b, type: 3}
+  "arbre_montagne_pr\xE9rendu": {fileID: 3852939848123433372, guid: ca9453c6e81073946a30556b7ccd779c, type: 3}
+  "champignon_plaine_pr\xE9rendu": {fileID: 7105825487659180372, guid: 6aa4f48e2d8c17f4ca2b4b40e59e1a41, type: 3}
+  "champignon_marais_pr\xE9rendu": {fileID: 3374484466648932860, guid: d310c1f9351f9b342b65b57d9e643ad8, type: 3}
+  "champignon_d\xE9sert_pr\xE9rendu": {fileID: 1248217620797363847, guid: 89af3db43fdd3be49a4d490c2187d1ce, type: 3}
+  "champignon_montagne_pr\xE9rendu": {fileID: 7724840459725107697, guid: 8b09ad73807962f458f409fb225f3c02, type: 3}
+  "rocher_plaine_pr\xE9rendu": {fileID: 5366970547986599905, guid: 9c01926a9ab6cf64c90559e35d58a5bf, type: 3}
+  "rocher_marais_pr\xE9rendu": {fileID: 2052646412645608463, guid: e96100cc14682cb43a8e68c86735fbe3, type: 3}
+  "rocher_d\xE9sert_pr\xE9rendu": {fileID: 5431008068158315016, guid: bfba7919270050b40a57f2207208ddbe, type: 3}
+  "rocher_montagne_pr\xE9rendu": {fileID: 4547934604316985154, guid: b7ec0393aff188d449211f9cd2a200fc, type: 3}
+  "buisson_plaine_pr\xE9rendu": {fileID: 2962645201144728271, guid: 24f95525959c94e409b7bf13113222e0, type: 3}
+  "buisson_marais_pr\xE9rendu": {fileID: 5297200234293586208, guid: 1d55c4c41ee8fc941bb6a5b2ba697ae8, type: 3}
+  "buisson_d\xE9sert_pr\xE9rendu": {fileID: 5040519280410869159, guid: beb1e176dae68864da2fef477685efc9, type: 3}
+  "buisson_montagne_pr\xE9rendu": {fileID: 5472692469890083168, guid: 918faf8bdc273e848a59c4360116076e, type: 3}
 --- !u!1 &1371121835338593691
 GameObject:
   m_ObjectHideFlags: 0

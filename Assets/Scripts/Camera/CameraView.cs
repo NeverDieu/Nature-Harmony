@@ -13,9 +13,9 @@ public class CameraView : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
 
             X += speed * Input.GetAxis("Mouse Y");
-            Y += speed * Input.GetAxis("Mouse X");
+            Y -= speed * Input.GetAxis("Mouse X");
 
-            X = Mathf.Clamp(X, 5f, 89f);
+            X = Mathf.Clamp(X, 5f, 90f);
 
             transform.eulerAngles = new Vector3(X, Y, 0f);
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectDetection : MonoBehaviour
 {
-    private SphereCollider monCollider;
+    private MeshCollider monCollider;
 
     [Header("Total")]
     public int objectNumberTotal;
@@ -23,7 +23,7 @@ public class ObjectDetection : MonoBehaviour
 
     private void Start()
     {
-        monCollider = GetComponent<SphereCollider>();
+        monCollider = GetComponent<MeshCollider>();
     }
 
     private void Update()

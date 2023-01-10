@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class ObjectPlacement : MonoBehaviour
 {
@@ -12,24 +12,20 @@ public class ObjectPlacement : MonoBehaviour
     placeHolder, objectToDestroy;
 
     //L'objet qui bouge
-    public Transform moveThis;
+    private Transform moveThis;
     //Quel Layers le Raycast peut toucher
     public LayerMask hitLayers;
     //Un rendu de l'objet qui va être placé
     [Header("Arbres")]
-    public GameObject prérendu_arbre_plaine; public GameObject prérendu_arbre_marais; public GameObject prérendu_arbre_désert; public GameObject prérendu_arbre_montagne;
+    public GameObject arbre_plaine_prérendu; public GameObject arbre_marais_prérendu; public GameObject arbre_désert_prérendu; public GameObject arbre_montagne_prérendu;
     [Header("Champignon")]
-    public GameObject prérendu_champignon_plaine; public GameObject prérendu_champignon_marais; public GameObject prérendu_champignon_désert; public GameObject prérendu_champignon_montagne;
+    public GameObject champignon_plaine_prérendu; public GameObject champignon_marais_prérendu; public GameObject champignon_désert_prérendu; public GameObject champignon_montagne_prérendu;
     [Header("Rocher")]
-    public GameObject prérendu_rocher_plaine; public GameObject prérendu_rocher_marais; public GameObject prérendu_rocher_désert; public GameObject prérendu_rocher_montagne;
+    public GameObject rocher_plaine_prérendu; public GameObject rocher_marais_prérendu; public GameObject rocher_désert_prérendu; public GameObject rocher_montagne_prérendu;
     [Header("Buisson")]
-    public GameObject prérendu_buisson_plaine; public GameObject prérendu_buisson_marais; public GameObject prérendu_buisson_désert; public GameObject prérendu_buisson_montagne;
-    //Quel tag l'objet a
-    public string tak;
+    public GameObject buisson_plaine_prérendu; public GameObject buisson_marais_prérendu; public GameObject buisson_désert_prérendu; public GameObject buisson_montagne_prérendu;
 
-    public GroupMaker leoTechMaker;
-
-    RaycastHit hit;
+    private RaycastHit hit;
 
     private Vector3 spawnPoint = new Vector3(0f, -1000f, 0f);
 
@@ -38,8 +34,10 @@ public class ObjectPlacement : MonoBehaviour
         Vector3 mouse = Input.mousePosition;
         Ray castPoint = Camera.main.ScreenPointToRay(mouse);
 
-
-        moveThis = objectToDestroy.transform;
+        if (objectToDestroy != null)
+        {
+            moveThis = objectToDestroy.transform;
+        }
 
         if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, hitLayers))
         {
@@ -47,14 +45,31 @@ public class ObjectPlacement : MonoBehaviour
             {
                 ObjectSpawner();
             }
-            moveThis.transform.position = hit.point;
+            if (objectToDestroy != null)
+            {
+                /*if (!oneMoreTime)*/
+                {
+                    PrérenduObjectSpawner();
+                }
+                moveThis.transform.position = hit.point;  
+            }
         }
 
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1) && objectToDestroy != null)
         {
+            var outLineMiami = GameObject.Find("Groups").GetComponent<GroupFabricator>().GetComponentInChildren<GroupContainer>();
+            if (outLineMiami != null)
+            {
+                for (int i = 0; i < outLineMiami.targets.Count; i++)
+                {
+                    outLineMiami.GetComponentInChildren<Transform>().GetChild(i).GetComponentInChildren<Outline>().enabled = false;
+                }
+            }
+            var labelCleaner = objectToDestroy.GetComponentInChildren<TextMeshPro>();
+            labelCleaner.SetText("");
             objectToDestroy.SetActive(false);
         }
-        else
+        else if (objectToDestroy != null)
         {
             objectToDestroy.SetActive(true);
         }
@@ -64,41 +79,33 @@ public class ObjectPlacement : MonoBehaviour
     {
         Destroy(objectToDestroy);
 
-        objectToDestroy = Instantiate(prérendu_arbre_plaine, spawnPoint, Quaternion.identity);
-
-        tak = "Arbre";
+        objectToDestroy = Instantiate(arbre_plaine_prérendu, spawnPoint, Quaternion.identity);
     }
 
     public void Champignon()
     {
         Destroy(objectToDestroy);
 
-        objectToDestroy = Instantiate(prérendu_champignon_plaine, spawnPoint, Quaternion.identity);
-
-        tak = "Champignon";
+        objectToDestroy = Instantiate(champignon_plaine_prérendu, spawnPoint, Quaternion.identity);
     }
 
     public void Rocher()
     {
         Destroy(objectToDestroy);
 
-        objectToDestroy = Instantiate(prérendu_rocher_plaine, spawnPoint, Quaternion.identity);
-
-        tak = "Rocher";
+        objectToDestroy = Instantiate(rocher_plaine_prérendu, spawnPoint, Quaternion.identity);
     }
 
     public void Buisson()
     {
         Destroy(objectToDestroy);
 
-        objectToDestroy = Instantiate(prérendu_buisson_plaine, spawnPoint, Quaternion.identity);
-
-        tak = "Buisson";
+        objectToDestroy = Instantiate(buisson_plaine_prérendu, spawnPoint, Quaternion.identity);
     }
 
     private void ObjectSpawner()
     {
-        if (objectToDestroy.tag == "Arbre")
+        if (objectToDestroy.CompareTag("Arbre"))
         {
             if (hit.collider.name == "Plaine")
             {
@@ -121,7 +128,7 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.tag == "Champignon")
+        if (objectToDestroy.CompareTag("Champignon"))
         {
             if (hit.collider.name == "Plaine")
             {
@@ -145,211 +152,159 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.tag == "Rocher")
+        if (objectToDestroy.CompareTag("Rocher"))
         {
             if (hit.collider.name == "Plaine")
             {
-                Instantiate(rocher_plaine, hit.point, Quaternion.identity);
-                
+                Instantiate(rocher_plaine, hit.point, Quaternion.identity);    
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(rocher_marais, hit.point, Quaternion.identity);
-               
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(rocher_désert, hit.point, Quaternion.identity);
-                
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(rocher_montagne, hit.point, Quaternion.identity);
-                
             }
         }
 
-        if (objectToDestroy.tag == "Buisson")
+        if (objectToDestroy.CompareTag("Buisson"))
         {
             if (hit.collider.name == "Plaine")
             {
                 Instantiate(buisson_plaine, hit.point, Quaternion.identity);
-                
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(buisson_marais, hit.point, Quaternion.identity);
-                
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(buisson_désert, hit.point, Quaternion.identity);
-                
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(buisson_montagne, hit.point, Quaternion.identity);
-
             }
         }
     }
 
-    /*private void PrérenduObjectSpawner()
+    private void PrérenduObjectSpawner()
     {
-        while (hit.collider.name == "Plaine")
-        {
-            if (objectToDestroy.tag == "Arbre")
-            {
-                objectToDestroy = Instantiate(prérendu_arbre_plaine, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Champignon")
-            {
-                objectToDestroy = Instantiate(prérendu_champignon_plaine, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Rocher")
-            {
-                objectToDestroy = Instantiate(prérendu_rocher_plaine, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Buisson")
-            {
-                objectToDestroy = Instantiate(prérendu_buisson_plaine, hit.point, Quaternion.identity);
-            }
-        }
-        while(hit.collider.name == "Marais")
-        {
-            if (objectToDestroy.tag == "Arbre")
-            {
-                objectToDestroy = Instantiate(prérendu_arbre_marais, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Champignon")
-            {
-                objectToDestroy = Instantiate(prérendu_champignon_marais, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Rocher")
-            {
-                objectToDestroy = Instantiate(prérendu_rocher_marais, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Buisson")
-            {
-                objectToDestroy = Instantiate(prérendu_buisson_marais, hit.point, Quaternion.identity);
-            }
-        }
-        while (hit.collider.name == "Désert")
-        {
-            if (objectToDestroy.tag == "Arbre")
-            {
-                objectToDestroy = Instantiate(prérendu_arbre_désert, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Champignon")
-            {
-                objectToDestroy = Instantiate(prérendu_champignon_désert, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Rocher")
-            {
-                objectToDestroy = Instantiate(prérendu_rocher_désert, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Buisson")
-            {
-                objectToDestroy = Instantiate(prérendu_buisson_désert, hit.point, Quaternion.identity);
-            }
-        }
-        while (hit.collider.name == "Montagne")
-        {
-            if (objectToDestroy.tag == "Arbre")
-            {
-                objectToDestroy = Instantiate(prérendu_arbre_montagne, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Champignon")
-            {
-                objectToDestroy = Instantiate(prérendu_champignon_montagne, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Rocher")
-            {
-                objectToDestroy = Instantiate(prérendu_rocher_montagne, hit.point, Quaternion.identity);
-            }
-            else if (objectToDestroy.tag == "Buisson")
-            {
-                objectToDestroy = Instantiate(prérendu_buisson_montagne, hit.point, Quaternion.identity);
-            }
-        }
-        while (objectToDestroy.tag == "Arbre")
+        if (objectToDestroy.CompareTag("Arbre"))
         {
             if (hit.collider.name == "Plaine")
             {
-               objectToDestroy = Instantiate(arbre_plaine, hit.point, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(arbre_plaine_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Marais")
             {
-               objectToDestroy = Instantiate(arbre_marais, hit.point, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(arbre_marais_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Désert")
             {
-               objectToDestroy = Instantiate(arbre_désert, hit.point, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(arbre_désert_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Montagne")
             {
-               objectToDestroy = Instantiate(arbre_montagne, hit.point, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(arbre_montagne_prérendu, spawnPoint, Quaternion.identity);
             }
         }
 
-        while (objectToDestroy.tag == "Champignon")
+        if (objectToDestroy.CompareTag("Champignon"))
         {
             if (hit.collider.name == "Plaine")
             {
-                objectToDestroy = Instantiate(champignon_plaine, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(champignon_plaine_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Marais")
             {
-                objectToDestroy = Instantiate(champignon_marais, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(champignon_marais_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Désert")
             {
-                objectToDestroy = Instantiate(champignon_désert, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(champignon_désert_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Montagne")
             {
-                objectToDestroy = Instantiate(champignon_montagne, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(champignon_montagne_prérendu, spawnPoint, Quaternion.identity);
             }
         }
 
-        while (objectToDestroy.tag == "Rocher")
+        if (objectToDestroy.CompareTag("Rocher"))
         {
             if (hit.collider.name == "Plaine")
             {
-                objectToDestroy = Instantiate(rocher_plaine, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(rocher_plaine_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Marais")
             {
-                objectToDestroy = Instantiate(rocher_marais, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(rocher_marais_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Désert")
             {
-                objectToDestroy = Instantiate(rocher_désert, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(rocher_désert_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Montagne")
             {
-                objectToDestroy = Instantiate(rocher_montagne, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(rocher_montagne_prérendu, spawnPoint, Quaternion.identity);
             }
         }
 
-        while (objectToDestroy.tag == "Buisson")
+        if (objectToDestroy.CompareTag("Buisson"))
         {
             if (hit.collider.name == "Plaine")
             {
-                objectToDestroy = Instantiate(buisson_plaine, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(buisson_plaine_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Marais")
             {
-                objectToDestroy = Instantiate(buisson_marais, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(buisson_marais_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Désert")
             {
-                objectToDestroy = Instantiate(buisson_désert, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(buisson_désert_prérendu, spawnPoint, Quaternion.identity);
             }
             else if (hit.collider.name == "Montagne")
             {
-                objectToDestroy = Instantiate(buisson_montagne, objectToDestroy.transform.position, Quaternion.identity);
+                Destroy(objectToDestroy);
+
+                objectToDestroy = Instantiate(buisson_montagne_prérendu, spawnPoint, Quaternion.identity);
             }
         }
-    }*/
+    }
 }

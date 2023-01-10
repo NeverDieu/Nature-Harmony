@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 2710959248579148614}
   m_Layer: 0
   m_Name: "Champignon_marais_pr\xE9rendu"
-  m_TagString: Untagged
+  m_TagString: Champignon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
