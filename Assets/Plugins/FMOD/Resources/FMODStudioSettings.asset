@@ -359,8 +359,9 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/Music Generation/NatureHarmony MusicGeneration.fspro
-  sourceBankPath: Assets/Music Generation/Build
+  sourceProjectPath: ../../../Bureau/NatureHarmony MusicGeneration/NatureHarmony
+    MusicGeneration.fspro
+  sourceBankPath: ../../../Bureau/NatureHarmony MusicGeneration/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
