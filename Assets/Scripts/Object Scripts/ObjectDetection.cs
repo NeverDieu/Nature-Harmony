@@ -21,6 +21,9 @@ public class ObjectDetection : MonoBehaviour
     [Header("Buissons")]
     public int objectNumberBuissons;
 
+    [Header("Fleurs")]
+    public int objectNumberFleurs;
+
     private void Start()
     {
         monCollider = GetComponent<MeshCollider>();
@@ -42,17 +45,25 @@ public class ObjectDetection : MonoBehaviour
         }
         if(objectNumberRochers < 0)
         {
-            objectNumberChampignons = 0;
+            objectNumberRochers = 0;
         }
         if(objectNumberBuissons < 0)
         {
             objectNumberBuissons = 0;
         }
+        if (objectNumberFleurs < 0)
+        {
+            objectNumberFleurs = 0;
+        }
+
+
     }
 
     public void OnTriggerEnter(Collider other)
     { 
         objectNumberTotal++;
+
+     
 
         var var = other.GetComponent<SphereCollider>();
         var nom = other.name;
@@ -138,6 +149,27 @@ public class ObjectDetection : MonoBehaviour
                 Physics.IgnoreCollision(monCollider, var);
             }
         }
+
+        else if (var.CompareTag("Fleur"))
+        {
+            objectNumberFleurs++;
+            if (nom.Contains("plaine") && !gameObject.name.Contains("Plaine"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("marais") && !gameObject.name.Contains("Marais"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("désert") && !gameObject.name.Contains("Désert"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+            if (nom.Contains("montagne") && !gameObject.name.Contains("Montagne"))
+            {
+                Physics.IgnoreCollision(monCollider, var);
+            }
+        }
     }
 
     public void OnTriggerExit(Collider other)
@@ -159,6 +191,10 @@ public class ObjectDetection : MonoBehaviour
         else if (other.CompareTag("Buisson"))
         {
             objectNumberBuissons--;
+        }
+        else if (other.CompareTag("Fleur"))
+        {
+            objectNumberFleurs--;
         }
     }
 }

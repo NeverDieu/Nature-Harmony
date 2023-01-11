@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 152732730750395636}
   - component: {fileID: -3113953111700318902}
   - component: {fileID: 6434787566092331981}
+  - component: {fileID: 181385329129736195}
   m_Layer: 3
   m_Name: "D\xE9sert"
   m_TagString: Terrain
@@ -116,3 +117,516 @@ MonoBehaviour:
   objectNumberChampignons: 0
   objectNumberRochers: 0
   objectNumberBuissons: 0
+  objectNumberFleurs: 0
+--- !u!114 &181385329129736195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809991767418488097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d3a1c259e88854cac96cec6cfee330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gp_fmodEvent:
+    Guid:
+      Data1: 1857453302
+      Data2: 1080861163
+      Data3: 1232831674
+      Data4: 1145117457
+    Path: event:/Guitar/Guitar Plain/GP_M
+  gd_fmodEvent:
+    Guid:
+      Data1: 2078569132
+      Data2: 1228090917
+      Data3: -772488792
+      Data4: -1047287813
+    Path: event:/Guitar/Guitar Desert/GD_M
+  gs_fmodEvent:
+    Guid:
+      Data1: 1908420082
+      Data2: 1278168433
+      Data3: 1929980546
+      Data4: -2125739226
+    Path: event:/Guitar/Guitar Swamp/GS_M
+  gm_fmodEvent:
+    Guid:
+      Data1: -20223021
+      Data2: 1163455419
+      Data3: -2002870892
+      Data4: 787450649
+    Path: event:/Guitar/Guitar Mountain/GM_M
+  pp_fmodEvent:
+    Guid:
+      Data1: -8848021
+      Data2: 1253941987
+      Data3: 1816979096
+      Data4: -523917334
+    Path: event:/Piano/Piano Plain/PP_M
+  pd_fmodEvent:
+    Guid:
+      Data1: -313982968
+      Data2: 1242334023
+      Data3: 1011258276
+      Data4: -1899979933
+    Path: event:/Piano/Piano Desert/PD_M
+  ps_fmodEvent:
+    Guid:
+      Data1: 2063063200
+      Data2: 1192063621
+      Data3: -1704062579
+      Data4: -1425129843
+    Path: event:/Piano/Piano Swamp/PS_M
+  pm_fmodEvent:
+    Guid:
+      Data1: 542409159
+      Data2: 1317578555
+      Data3: -1161284181
+      Data4: 310626605
+    Path: event:/Piano/Piano Mountain/PM_M
+  bp_fmodEvent:
+    Guid:
+      Data1: 741316046
+      Data2: 1282060178
+      Data3: -393427036
+      Data4: -2046973607
+    Path: event:/Bass/Bass Plain/BP_M
+  bd_fmodEvent:
+    Guid:
+      Data1: -1029255237
+      Data2: 1303268533
+      Data3: 1715798966
+      Data4: -469916874
+    Path: event:/Bass/Bass Desert/BD_M
+  bs_fmodEvent:
+    Guid:
+      Data1: 1882183861
+      Data2: 1338480727
+      Data3: -580638066
+      Data4: 403865132
+    Path: event:/Bass/Bass Swamp/Bs_M
+  bm_fmodEvent:
+    Guid:
+      Data1: -457456441
+      Data2: 1167889128
+      Data3: -1975441017
+      Data4: -1755121029
+    Path: event:/Bass/Bass Mountain/BM_M
+  fp_fmodEvent:
+    Guid:
+      Data1: 934924173
+      Data2: 1154094995
+      Data3: -1013806692
+      Data4: -1864092394
+    Path: event:/Flute/Flute Plain/FP_M
+  fd_fmodEvent:
+    Guid:
+      Data1: -2017380171
+      Data2: 1223213265
+      Data3: -232915050
+      Data4: 1115054938
+    Path: event:/Flute/Flute Desert/FD_M
+  fs_fmodEvent:
+    Guid:
+      Data1: -638101070
+      Data2: 1260799676
+      Data3: -1454487918
+      Data4: -1402608109
+    Path: event:/Flute/Flute Swamp/FS_M
+  fm_fmodEvent:
+    Guid:
+      Data1: 2028416377
+      Data2: 1129141518
+      Data3: 166904234
+      Data4: 1447751650
+    Path: event:/Flute/Flute Mountain/FM_M
+  vp_fmodEvent:
+    Guid:
+      Data1: 229649511
+      Data2: 1327423867
+      Data3: 712031667
+      Data4: -1171495089
+    Path: event:/Violin/Violin Plain/VP_M
+  vd_fmodEvent:
+    Guid:
+      Data1: -730879516
+      Data2: 1295805540
+      Data3: 427222707
+      Data4: -2047466372
+    Path: event:/Violin/Violin Desert/VD_M
+  vs_fmodEvent:
+    Guid:
+      Data1: 51756369
+      Data2: 1211560026
+      Data3: -1855311465
+      Data4: 1428243830
+    Path: event:/Violin/Violin Swamp/VS_M
+  vm_fmodEvent:
+    Guid:
+      Data1: 774344747
+      Data2: 1294382210
+      Data3: -1785409874
+      Data4: -1587779396
+    Path: event:/Violin/Violin Mountain/VM_M
+  gp_melody: 0
+  gd_melody: 0
+  gs_melody: 0
+  gm_melody: 0
+  pp_melody: 0
+  pd_melody: 0
+  ps_melody: 0
+  pm_melody: 0
+  bp_melody: 0
+  bd_melody: 0
+  bs_melody: 0
+  bm_melody: 0
+  fp_melody: 0
+  fd_melody: 0
+  fs_melody: 0
+  fm_melody: 0
+  vp_melody: 0
+  vd_melody: 0
+  vs_melody: 0
+  vm_melody: 0
+  gp_ch_fmodEvent:
+    Guid:
+      Data1: 1435265533
+      Data2: 1292320070
+      Data3: 373469620
+      Data4: -218750982
+    Path: event:/Guitar/Guitar Plain/GP_Ch
+  gp_chords: 0
+  gp_chord1: 0
+  gp_chord2: 0
+  gp_chord3: 0
+  gp_chord4: 0
+  gp_chord5: 0
+  gp_chord6: 0
+  gp_chord7: 0
+  gp_chord8: 0
+  gd_ch_fmodEvent:
+    Guid:
+      Data1: -1290913221
+      Data2: 1334020187
+      Data3: -1946925891
+      Data4: -1771263369
+    Path: event:/Guitar/Guitar Desert/GD_Ch
+  gd_chords: 0
+  gd_chord1: 0
+  gd_chord2: 0
+  gd_chord3: 0
+  gd_chord4: 0
+  gd_chord5: 0
+  gd_chord6: 0
+  gd_chord7: 0
+  gd_chord8: 0
+  gs_ch_fmodEvent:
+    Guid:
+      Data1: -2099748815
+      Data2: 1128597253
+      Data3: -1637895296
+      Data4: 2039195947
+    Path: event:/Guitar/Guitar Swamp/GS_Ch
+  gs_chords: 0
+  gs_chord1: 0
+  gs_chord2: 0
+  gs_chord3: 0
+  gs_chord4: 0
+  gs_chord5: 0
+  gs_chord6: 0
+  gs_chord7: 0
+  gs_chord8: 0
+  gm_ch_fmodEvent:
+    Guid:
+      Data1: -1324954587
+      Data2: 1171364460
+      Data3: 225658813
+      Data4: -1524333123
+    Path: event:/Guitar/Guitar Mountain/GM_Ch
+  gm_chords: 0
+  gm_chord1: 0
+  gm_chord2: 0
+  gm_chord3: 0
+  gm_chord4: 0
+  gm_chord5: 0
+  gm_chord6: 0
+  gm_chord7: 0
+  gm_chord8: 0
+  pp_ch_fmodEvent:
+    Guid:
+      Data1: -220286883
+      Data2: 1296069229
+      Data3: 716223650
+      Data4: 1065123097
+    Path: event:/Piano/Piano Plain/PP_Ch
+  pp_chords: 0
+  pp_chord1: 0
+  pp_chord2: 0
+  pp_chord3: 0
+  pp_chord4: 0
+  pp_chord5: 0
+  pp_chord6: 0
+  pp_chord7: 0
+  pp_chord8: 0
+  pd_ch_fmodEvent:
+    Guid:
+      Data1: -1113769862
+      Data2: 1081460670
+      Data3: 1799176631
+      Data4: -197016144
+    Path: event:/Piano/Piano Desert/PD_Ch
+  pd_chords: 0
+  pd_chord1: 0
+  pd_chord2: 0
+  pd_chord3: 0
+  pd_chord4: 0
+  pd_chord5: 0
+  pd_chord6: 0
+  pd_chord7: 0
+  pd_chord8: 0
+  ps_ch_fmodEvent:
+    Guid:
+      Data1: 1502125204
+      Data2: 1329369083
+      Data3: 1318431909
+      Data4: -874694256
+    Path: event:/Piano/Piano Swamp/PS_Ch
+  ps_chords: 0
+  ps_chord1: 0
+  ps_chord2: 0
+  ps_chord3: 0
+  ps_chord4: 0
+  ps_chord5: 0
+  ps_chord6: 0
+  ps_chord7: 0
+  ps_chord8: 0
+  pm_ch_fmodEvent:
+    Guid:
+      Data1: 117410942
+      Data2: 1205007813
+      Data3: 2065289862
+      Data4: -158066339
+    Path: event:/Piano/Piano Mountain/PM_Ch
+  pm_chords: 0
+  pm_chord1: 0
+  pm_chord2: 0
+  pm_chord3: 0
+  pm_chord4: 0
+  pm_chord5: 0
+  pm_chord6: 0
+  pm_chord7: 0
+  pm_chord8: 0
+  bp_ch_fmodEvent:
+    Guid:
+      Data1: -253476904
+      Data2: 1271542989
+      Data3: -578245441
+      Data4: -1321049383
+    Path: event:/Bass/Bass Plain/BP_Ch
+  bp_chords: 0
+  bp_chord1: 0
+  bp_chord2: 0
+  bp_chord3: 0
+  bp_chord4: 0
+  bp_chord5: 0
+  bp_chord6: 0
+  bp_chord7: 0
+  bp_chord8: 0
+  bd_ch_fmodEvent:
+    Guid:
+      Data1: -778207868
+      Data2: 1093702547
+      Data3: 1914007479
+      Data4: 1271445096
+    Path: event:/Bass/Bass Desert/BD_Ch
+  bd_chords: 0
+  bd_chord1: 0
+  bd_chord2: 0
+  bd_chord3: 0
+  bd_chord4: 0
+  bd_chord5: 0
+  bd_chord6: 0
+  bd_chord7: 0
+  bd_chord8: 0
+  bs_ch_fmodEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  bs_chords: 0
+  bs_chord1: 0
+  bs_chord2: 0
+  bs_chord3: 0
+  bs_chord4: 0
+  bs_chord5: 0
+  bs_chord6: 0
+  bs_chord7: 0
+  bs_chord8: 0
+  bm_ch_fmodEvent:
+    Guid:
+      Data1: -309162922
+      Data2: 1157536972
+      Data3: -668666720
+      Data4: 625433650
+    Path: event:/Bass/Bass Mountain/BM_Ch
+  bm_chords: 0
+  bm_chord1: 0
+  bm_chord2: 0
+  bm_chord3: 0
+  bm_chord4: 0
+  bm_chord5: 0
+  bm_chord6: 0
+  bm_chord7: 0
+  bm_chord8: 0
+  fp_ch_fmodEvent:
+    Guid:
+      Data1: -2020747651
+      Data2: 1128975903
+      Data3: -2093307253
+      Data4: -984500317
+    Path: event:/Flute/Flute Plain/FP_Ch
+  fp_chords: 0
+  fp_chord1: 0
+  fp_chord2: 0
+  fp_chord3: 0
+  fp_chord4: 0
+  fp_chord5: 0
+  fp_chord6: 0
+  fp_chord7: 0
+  fp_chord8: 0
+  fd_ch_fmodEvent:
+    Guid:
+      Data1: 212462967
+      Data2: 1183670797
+      Data3: -1400857701
+      Data4: 1737815675
+    Path: event:/Flute/Flute Desert/FD_Ch
+  fd_chords: 0
+  fd_chord1: 0
+  fd_chord2: 0
+  fd_chord3: 0
+  fd_chord4: 0
+  fd_chord5: 0
+  fd_chord6: 0
+  fd_chord7: 0
+  fd_chord8: 0
+  fs_ch_fmodEvent:
+    Guid:
+      Data1: 2108359534
+      Data2: 1121949927
+      Data3: -1740483162
+      Data4: -1514776539
+    Path: event:/Flute/Flute Swamp/FS_Ch
+  fs_chords: 0
+  fs_chord1: 0
+  fs_chord2: 0
+  fs_chord3: 0
+  fs_chord4: 0
+  fs_chord5: 0
+  fs_chord6: 0
+  fs_chord7: 0
+  fs_chord8: 0
+  fm_ch_fmodEvent:
+    Guid:
+      Data1: 2073732496
+      Data2: 1100413950
+      Data3: -1395210880
+      Data4: -607366029
+    Path: event:/Flute/Flute Mountain/FM_Ch
+  fm_chords: 0
+  fm_chord1: 0
+  fm_chord2: 0
+  fm_chord3: 0
+  fm_chord4: 0
+  fm_chord5: 0
+  fm_chord6: 0
+  fm_chord7: 0
+  fm_chord8: 0
+  vp_ch_fmodEvent:
+    Guid:
+      Data1: -38980249
+      Data2: 1182821365
+      Data3: 542204075
+      Data4: 1665465271
+    Path: event:/Violin/Violin Plain/VP_Ch
+  vp_chords: 0
+  vp_chord1: 0
+  vp_chord2: 0
+  vp_chord3: 0
+  vp_chord4: 0
+  vp_chord5: 0
+  vp_chord6: 0
+  vp_chord7: 0
+  vp_chord8: 0
+  vd_ch_fmodEvent:
+    Guid:
+      Data1: 908724318
+      Data2: 1127340068
+      Data3: 1559093638
+      Data4: -958976371
+    Path: event:/Violin/Violin Desert/VD_Ch
+  vd_chords: 0
+  vd_chord1: 0
+  vd_chord2: 0
+  vd_chord3: 0
+  vd_chord4: 0
+  vd_chord5: 0
+  vd_chord6: 0
+  vd_chord7: 0
+  vd_chord8: 0
+  vs_ch_fmodEvent:
+    Guid:
+      Data1: 1411055246
+      Data2: 1156549107
+      Data3: 1478917263
+      Data4: -2104002973
+    Path: event:/Violin/Violin Swamp/VS_Ch
+  vs_chords: 0
+  vs_chord1: 0
+  vs_chord2: 0
+  vs_chord3: 0
+  vs_chord4: 0
+  vs_chord5: 0
+  vs_chord6: 0
+  vs_chord7: 0
+  vs_chord8: 0
+  vm_ch_fmodEvent:
+    Guid:
+      Data1: -984081460
+      Data2: 1122407925
+      Data3: -1430204515
+      Data4: 369324151
+    Path: event:/Violin/Violin Mountain/VM_Ch
+  vm_chords: 0
+  vm_chord1: 0
+  vm_chord2: 0
+  vm_chord3: 0
+  vm_chord4: 0
+  vm_chord5: 0
+  vm_chord6: 0
+  vm_chord7: 0
+  vm_chord8: 0
+  countGP: 0
+  countGD: 0
+  countGS: 0
+  countGM: 0
+  countPP: 0
+  countPD: 0
+  countPS: 0
+  countPM: 0
+  countBP: 0
+  countBD: 0
+  countBS: 0
+  countBM: 0
+  countFP: 0
+  countFD: 0
+  countFS: 0
+  countFM: 0
+  countVP: 0
+  countVD: 0
+  countVS: 0
+  countVM: 0

@@ -121,21 +121,25 @@ public class ObjectPlacement : MonoBehaviour
             if (hit.collider.name == "Plaine")
             {
                 Instantiate(arbre_plaine, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Plain/GP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(arbre_marais, hit.point, Quaternion.identity);
-               
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Swamp/GS Feedbacks/Note/Note");
+
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(arbre_désert, hit.point, Quaternion.identity);
-               
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Desert/GD Feedbacks/Note/Note");
+
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(arbre_montagne, hit.point, Quaternion.identity);
-               
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Mountain/GM Feedbacks/Note/Note");
+
             }
         }
 
@@ -144,22 +148,26 @@ public class ObjectPlacement : MonoBehaviour
             if (hit.collider.name == "Plaine")
             {
                Instantiate(champignon_plaine, hit.point, Quaternion.identity);
-                
+               FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Plain/PP Feedbacks/Note/Note");
+
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(champignon_marais, hit.point, Quaternion.identity);
-               
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Swamp/PS Feedbacks/Note/Note");
+
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(champignon_désert, hit.point, Quaternion.identity);
-                
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Desert/PD Feedbacks/Note/Note");
+
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(champignon_montagne, hit.point, Quaternion.identity);
-               
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Mountain/PM Feedbacks/Note/Note");
+
             }
         }
 
@@ -167,19 +175,23 @@ public class ObjectPlacement : MonoBehaviour
         {
             if (hit.collider.name == "Plaine")
             {
-                Instantiate(rocher_plaine, hit.point, Quaternion.identity);    
+                Instantiate(rocher_plaine, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Plain/BP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(rocher_marais, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Swamp/Bs Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(rocher_désert, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Desert/BD Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(rocher_montagne, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Mountain/BM Feedbacks/Note/Note");
             }
         }
 
@@ -188,18 +200,22 @@ public class ObjectPlacement : MonoBehaviour
             if (hit.collider.name == "Plaine")
             {
                 Instantiate(buisson_plaine, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Plain/VP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(buisson_marais, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Swamp/VS Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(buisson_désert, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Desert/VD Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(buisson_montagne, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Mountain/VM Feedbacks/Note/Note");
             }
         }
 
@@ -208,18 +224,22 @@ public class ObjectPlacement : MonoBehaviour
             if (hit.collider.name == "Plaine")
             {
                 Instantiate(fleur_plaine, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Plain/PP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(fleur_marais, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Swamp/PS Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(fleur_désert, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Desert/PD Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(fleur_montagne, hit.point, Quaternion.identity);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Mountain/PM Feedbacks/Note/Note");
             }
         }
     }
