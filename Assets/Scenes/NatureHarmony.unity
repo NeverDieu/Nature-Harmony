@@ -552,8 +552,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 1810564132840818195, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2321402256662924152, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663850308826168656, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2841105316102771344, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
@@ -660,6 +668,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 5136629061850199934, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6007767113139687109, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
       propertyPath: m_Name
       value: Marais
@@ -678,6 +690,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7080585039157846188, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471643974120759357, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7810453525474305567, guid: bc636453822148b48b7e60f2dda918ba, type: 3}
@@ -705,6 +721,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1333022171386572938, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 128580791}
     - target: {fileID: 1371121833428768761, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -728,6 +748,10 @@ PrefabInstance:
     - target: {fileID: 1371121834244821427, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371121834311048216, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -29.99997
       objectReference: {fileID: 0}
     - target: {fileID: 1371121834605327571, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
       propertyPath: m_Name
@@ -845,6 +869,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 128580791}
+    - target: {fileID: 4859129453113447192, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
+      propertyPath: m_Name
+      value: Gomme
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dc933e122464fb47ba6046736bb201c, type: 3}
 --- !u!1001 &1826800622269957498

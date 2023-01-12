@@ -6,7 +6,7 @@ public class ObjectPlacementEditor : Editor
 {
     public enum GameObjects
     {
-        Arbres, Champignons, Rochers, Buissons, Fleurs, PréRendus, Autres
+        Arbres, Champignons, Rochers, Buissons, Fleurs, Gomme, PréRendus, Autres
     }
 
     public GameObjects dropdown;
@@ -37,6 +37,10 @@ public class ObjectPlacementEditor : Editor
 
             case GameObjects.Fleurs:
                 FleursGameObjects();
+                break;
+
+            case GameObjects.Gomme:
+                EraserHead();
                 break;
 
             case GameObjects.PréRendus:
@@ -88,6 +92,11 @@ public class ObjectPlacementEditor : Editor
         EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_marais"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_désert"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("fleur_montagne"));
+    }
+
+    void EraserHead()
+    {
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("gomme"));
     }
     void PréRendus()
     {
