@@ -22,12 +22,18 @@ public class MenuSelection : MonoBehaviour
 
     public void OptionsButton()
     {
+        for (int i = 1; i < 7; i++)
+            UIelements[i].SetActive(false);
 
+        UIelements[7].SetActive(true);
     }
 
     public void CreditsButton()
     {
+        for (int i = 1; i < 6; i++)
+            UIelements[i].SetActive(false);
 
+        UIelements[6].SetActive(true);
     }
 
     public void QuitButton()
@@ -50,5 +56,23 @@ public class MenuSelection : MonoBehaviour
             UIelements[i].SetActive(true);
 
         UIelements[5].SetActive(false);
+    }
+
+    public void OptionsBack()
+    {
+        for (int i = 1; i < 7; i++)
+            UIelements[i].SetActive(true);
+
+        UIelements[5].SetActive(false);
+        UIelements[6].SetActive(false);
+        UIelements[7].SetActive(false);
+    }
+    public void CreditsBack()
+    {
+        for (int i = 1; i < 6; i++)
+            UIelements[i].SetActive(true);
+
+        UIelements[5].SetActive(false);
+        UIelements[6].SetActive(false);
     }
 }
