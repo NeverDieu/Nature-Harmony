@@ -10,7 +10,7 @@ public class ObjectPlacement : MonoBehaviour
     rocher_plaine, rocher_marais, rocher_désert, rocher_montagne,
     buisson_plaine, buisson_marais, buisson_désert, buisson_montagne,
     fleur_plaine, fleur_marais, fleur_désert, fleur_montagne,
-    placeHolder, objectToDestroy;
+    placeHolder, objectToDestroy, gomme;
 
     //Quel Layers le Raycast peut toucher
     public LayerMask hitLayers;
@@ -60,7 +60,10 @@ public class ObjectPlacement : MonoBehaviour
                 }
             }
             var labelCleaner = objectToDestroy.GetComponentInChildren<TextMeshPro>();
-            labelCleaner.SetText("");
+            if (labelCleaner != null)
+            {
+                labelCleaner.SetText("");
+            }
             objectToDestroy.SetActive(false);
         }
         else if (objectToDestroy != null)
@@ -75,6 +78,8 @@ public class ObjectPlacement : MonoBehaviour
 
         objectToDestroy = Instantiate(arbre_plaine_prérendu, spawnPoint, Quaternion.identity);
 
+        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
+
         objectToDestroy.transform.parent = gameObject.transform;
     }
 
@@ -83,6 +88,8 @@ public class ObjectPlacement : MonoBehaviour
         Destroy(objectToDestroy);
 
         objectToDestroy = Instantiate(champignon_plaine_prérendu, spawnPoint, Quaternion.identity);
+
+        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
 
         objectToDestroy.transform.parent = gameObject.transform;
     }
@@ -93,6 +100,8 @@ public class ObjectPlacement : MonoBehaviour
 
         objectToDestroy = Instantiate(rocher_plaine_prérendu, spawnPoint, Quaternion.identity);
 
+        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
+
         objectToDestroy.transform.parent = gameObject.transform;
     }
 
@@ -101,6 +110,8 @@ public class ObjectPlacement : MonoBehaviour
         Destroy(objectToDestroy);
 
         objectToDestroy = Instantiate(buisson_plaine_prérendu, spawnPoint, Quaternion.identity);
+
+        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
 
         objectToDestroy.transform.parent = gameObject.transform;
     }
@@ -111,12 +122,23 @@ public class ObjectPlacement : MonoBehaviour
 
         objectToDestroy = Instantiate(fleur_plaine_prérendu, spawnPoint, Quaternion.identity);
 
+        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
+
         objectToDestroy.transform.parent = gameObject.transform;
+    }
+
+    public void EraserHead()
+    {
+        Destroy(objectToDestroy);
+
+        objectToDestroy = Instantiate(gomme, spawnPoint, Quaternion.identity);
+
+        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
     }
 
     private void ObjectSpawner()
     {
-        if (objectToDestroy.CompareTag("Arbre"))
+        if (objectToDestroy.CompareTag("Arbre_prérendu"))
         {
             if (hit.collider.name == "Plaine")
             {
@@ -125,21 +147,18 @@ public class ObjectPlacement : MonoBehaviour
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(arbre_marais, hit.point, Quaternion.identity);
-               
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(arbre_désert, hit.point, Quaternion.identity);
-               
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(arbre_montagne, hit.point, Quaternion.identity);
-               
             }
         }
 
-        if (objectToDestroy.CompareTag("Champignon"))
+        if (objectToDestroy.CompareTag("Champignon_prérendu"))
         {
             if (hit.collider.name == "Plaine")
             {
@@ -163,7 +182,7 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Rocher"))
+        if (objectToDestroy.CompareTag("Rocher_prérendu"))
         {
             if (hit.collider.name == "Plaine")
             {
@@ -183,7 +202,7 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Buisson"))
+        if (objectToDestroy.CompareTag("Buisson_prérendu"))
         {
             if (hit.collider.name == "Plaine")
             {
@@ -203,7 +222,7 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Fleur"))
+        if (objectToDestroy.CompareTag("Fleur_prérendu"))
         {
             if (hit.collider.name == "Plaine")
             {
@@ -226,8 +245,9 @@ public class ObjectPlacement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (objectToDestroy.CompareTag("Arbre"))
+        if (objectToDestroy.CompareTag("Arbre_prérendu"))
         {
+            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -262,8 +282,9 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Champignon"))
+        if (objectToDestroy.CompareTag("Champignon_prérendu"))
         {
+            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -298,8 +319,9 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Rocher"))
+        if (objectToDestroy.CompareTag("Rocher_prérendu"))
         {
+            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -334,8 +356,9 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Buisson"))
-        { 
+        if (objectToDestroy.CompareTag("Buisson_prérendu"))
+        {
+            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -370,8 +393,9 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Fleur"))
+        if (objectToDestroy.CompareTag("Fleur_prérendu"))
         {
+            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);

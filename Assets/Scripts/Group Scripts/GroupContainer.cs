@@ -51,7 +51,15 @@ public class GroupContainer : MonoBehaviour
 
     private void Update()
     {
-        if(hotLine == true)
+        for (int i = 0; i < targets.Count; i++)
+        {
+            if (GetComponentInChildren<Transform>().GetChild(i) == null)
+            {
+                targets.Remove(GetComponentInChildren<Transform>().GetChild(i));
+            }
+        }
+
+        if (hotLine == true)
         {
             for (int i = 0; i < targets.Count; i++)
                 GetComponentInChildren<Transform>().GetChild(i).GetComponentInChildren<Outline>().enabled = true;
@@ -67,6 +75,14 @@ public class GroupContainer : MonoBehaviour
             hotLine = false;
             for (int i = 0; i < targets.Count; i++)
                 GetComponentInChildren<Transform>().GetChild(i).GetComponentInChildren<Outline>().enabled = false;
+        }
+
+        if (targets.Count < 3)
+        {
+            for (int i = 0; i < targets.Count; i++)
+            {
+                GetComponentInChildren<Transform>().GetChild(i).parent = null;
+            }
         }
     }
 

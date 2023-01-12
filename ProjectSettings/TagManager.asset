@@ -14,6 +14,12 @@ TagManager:
   - Buisson
   - Groups
   - Fleur
+  - "Arbre_pr\xE9rendu"
+  - "Champignon_pr\xE9rendu"
+  - "Rocher_pr\xE9rendu"
+  - "Buisson_pr\xE9rendu"
+  - "Fleur_pr\xE9rendu"
+  - Gomme
   layers:
   - Default
   - TransparentFX

@@ -441,6 +441,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 183726293201904633, guid: 3765eeea92d02594bb000155f2e27dd4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1780880156558986030, guid: 3765eeea92d02594bb000155f2e27dd4, type: 3}
       propertyPath: m_Camera
       value: 
@@ -537,9 +541,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7552536630009548253, guid: 3765eeea92d02594bb000155f2e27dd4, type: 3}
+      propertyPath: m_text
+      value: Voulez vous vraiment quitter ?
+      objectReference: {fileID: 0}
     - target: {fileID: 7712957188056693760, guid: 3765eeea92d02594bb000155f2e27dd4, type: 3}
       propertyPath: m_Name
       value: ButtonNon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274573847405166364, guid: 3765eeea92d02594bb000155f2e27dd4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955427928265526261, guid: 3765eeea92d02594bb000155f2e27dd4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3765eeea92d02594bb000155f2e27dd4, type: 3}

@@ -12,7 +12,7 @@ public class GroupMaker : MonoBehaviour
 
     private GroupFabricator groupFabricator;
 
-    private GameObject empty, groupHierarchie;
+    private GameObject groupHierarchie;
 
     private int numberOfGroups;
 
@@ -31,7 +31,6 @@ public class GroupMaker : MonoBehaviour
         groupLength = 1;
 
         groupHierarchie = GameObject.Find("Groups");
-        empty = GameObject.Find("PlaceHolder");
 
         gameObjects = new List<GameObject>();
 
@@ -40,17 +39,20 @@ public class GroupMaker : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (influence.name == other.name)
+
+        if (gameObject.name.Contains(other.name))
         {
             var groupObjects = other.gameObject;
             var selfGrouper = gameObject;
 
             gameObjects.Add(groupObjects);
 
+            Debug.Log(other);
+
             groupLength += 1;
 
-            if (groupLength >= 3 && gameObjects.Count >= 3)
-            { 
+            if (groupLength >= 3 && gameObjects.Count >= 3 && !other.GetComponent<MeshCollider>())
+            {
                 groupObjects.GetComponent<GroupMaker>().gameObjects = gameObjects;
                 if (gameObjects[0] == other.gameObject)
                 {

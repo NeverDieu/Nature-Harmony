@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 3361062539577998580}
   m_Layer: 0
   m_Name: "Arbre_marais_pr\xE9rendu"
-  m_TagString: Arbre
+  m_TagString: "Arbre_pr\xE9rendu"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

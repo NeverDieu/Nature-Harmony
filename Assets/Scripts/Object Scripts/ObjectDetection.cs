@@ -51,11 +51,19 @@ public class ObjectDetection : MonoBehaviour
     }
 
     public void OnTriggerEnter(Collider other)
-    { 
-        objectNumberTotal++;
-
+    {   
         var var = other.GetComponent<SphereCollider>();
         var nom = other.name;
+
+        if(!var.tag.Contains("prérendu") && var != null)
+        {
+            objectNumberTotal++;
+        }
+
+        if(!var.tag.Contains("prérendu") || other.CompareTag("Gomme"))
+        {
+            Physics.IgnoreCollision(monCollider, other.GetComponent<SphereCollider>());
+        }
 
         if (var.CompareTag("Arbre"))
         {
@@ -142,8 +150,12 @@ public class ObjectDetection : MonoBehaviour
 
     public void OnTriggerExit(Collider other)
     {
-        objectNumberTotal--;
+        var var = other.GetComponent<SphereCollider>();
 
+        if (!var.tag.Contains("prérendu"))
+        {
+            objectNumberTotal--;
+        }
         if (other.CompareTag("Arbre"))
         {
             objectNumberArbres--;
