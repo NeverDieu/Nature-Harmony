@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b24cf8a6-dafc-432b-8b04-81eeadbbe5ec}">
+		<property name="assetPath">
+			<value>PD_Ch1_3.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>28.499591836734695</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{395873fc-3efd-4044-9cab-1c1e850666b8}</destination>
+		</relationship>
+	</object>
+</objects>

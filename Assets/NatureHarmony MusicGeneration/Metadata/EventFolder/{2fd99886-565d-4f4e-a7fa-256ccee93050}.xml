@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{2fd99886-565d-4f4e-a7fa-256ccee93050}">
+		<property name="name">
+			<value>VS Feedbacks</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e776d3fc-8859-428c-9690-851fb6df669b}</destination>
+		</relationship>
+	</object>
+</objects>
