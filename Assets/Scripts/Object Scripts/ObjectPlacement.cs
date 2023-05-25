@@ -59,9 +59,9 @@ public class ObjectPlacement : MonoBehaviour
                     outLineMiami.GetComponentInChildren<Transform>().GetChild(i).GetComponentInChildren<Outline>().enabled = false;
                 }
             }
-            var labelCleaner = objectToDestroy.GetComponentInChildren<TextMeshPro>();
-            if (labelCleaner != null)
+            if (!objectToDestroy.CompareTag("Gomme"))
             {
+                var labelCleaner = objectToDestroy.GetComponentInChildren<TextMeshPro>();
                 labelCleaner.SetText("");
             }
             objectToDestroy.SetActive(false);
@@ -78,8 +78,6 @@ public class ObjectPlacement : MonoBehaviour
 
         objectToDestroy = Instantiate(arbre_plaine_prérendu, spawnPoint, Quaternion.identity);
 
-        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
-
         objectToDestroy.transform.parent = gameObject.transform;
     }
 
@@ -88,8 +86,6 @@ public class ObjectPlacement : MonoBehaviour
         Destroy(objectToDestroy);
 
         objectToDestroy = Instantiate(champignon_plaine_prérendu, spawnPoint, Quaternion.identity);
-
-        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
 
         objectToDestroy.transform.parent = gameObject.transform;
     }
@@ -100,8 +96,6 @@ public class ObjectPlacement : MonoBehaviour
 
         objectToDestroy = Instantiate(rocher_plaine_prérendu, spawnPoint, Quaternion.identity);
 
-        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
-
         objectToDestroy.transform.parent = gameObject.transform;
     }
 
@@ -110,8 +104,6 @@ public class ObjectPlacement : MonoBehaviour
         Destroy(objectToDestroy);
 
         objectToDestroy = Instantiate(buisson_plaine_prérendu, spawnPoint, Quaternion.identity);
-
-        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
 
         objectToDestroy.transform.parent = gameObject.transform;
     }
@@ -122,8 +114,6 @@ public class ObjectPlacement : MonoBehaviour
 
         objectToDestroy = Instantiate(fleur_plaine_prérendu, spawnPoint, Quaternion.identity);
 
-        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
-
         objectToDestroy.transform.parent = gameObject.transform;
     }
 
@@ -133,121 +123,136 @@ public class ObjectPlacement : MonoBehaviour
 
         objectToDestroy = Instantiate(gomme, spawnPoint, Quaternion.identity);
 
-        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponent<SphereCollider>());
+        Physics.IgnoreCollision(GetComponent<SphereCollider>(), objectToDestroy.GetComponentInChildren<SphereCollider>());
     }
 
     private void ObjectSpawner()
     {
-        if (objectToDestroy.CompareTag("Arbre_prérendu"))
+        if (objectToDestroy.CompareTag("Arbre"))
         {
             if (hit.collider.name == "Plaine")
             {
                 Instantiate(arbre_plaine, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Plain/GP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(arbre_marais, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Swamp/GS Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(arbre_désert, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Desert/GD Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(arbre_montagne, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Guitar/Guitar Mountain/GM Feedbacks/Note/Note");
             }
         }
 
-        if (objectToDestroy.CompareTag("Champignon_prérendu"))
+        if (objectToDestroy.CompareTag("Champignon"))
         {
             if (hit.collider.name == "Plaine")
             {
                Instantiate(champignon_plaine, hit.point, Quaternion.identity);
-                
+               //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Plain/PP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(champignon_marais, hit.point, Quaternion.identity);
-               
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Swamp/PS Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(champignon_désert, hit.point, Quaternion.identity);
-                
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Desert/PD Feedbacks/Note/Note);
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(champignon_montagne, hit.point, Quaternion.identity);
-               
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Mountain/PM Feedbacks/Note/Note");
             }
         }
 
-        if (objectToDestroy.CompareTag("Rocher_prérendu"))
+        if (objectToDestroy.CompareTag("Rocher"))
         {
             if (hit.collider.name == "Plaine")
             {
-                Instantiate(rocher_plaine, hit.point, Quaternion.identity);    
+                Instantiate(rocher_plaine, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Plain/BP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(rocher_marais, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Swamp/Bs Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(rocher_désert, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Desert/BD Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(rocher_montagne, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Bass/Bass Mountain/BM Feedbacks/Note/Note");
             }
         }
 
-        if (objectToDestroy.CompareTag("Buisson_prérendu"))
+        if (objectToDestroy.CompareTag("Buisson"))
         {
             if (hit.collider.name == "Plaine")
             {
                 Instantiate(buisson_plaine, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Plain/VP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(buisson_marais, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Swamp/VS Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(buisson_désert, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Desert/VD Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(buisson_montagne, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Violin/Violin Mountain/VM Feedbacks/Note/Note");
             }
         }
 
-        if (objectToDestroy.CompareTag("Fleur_prérendu"))
+        if (objectToDestroy.CompareTag("Fleur"))
         {
             if (hit.collider.name == "Plaine")
             {
                 Instantiate(fleur_plaine, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Plain/PP Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Marais")
             {
                 Instantiate(fleur_marais, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Swamp/PS Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Désert")
             {
                 Instantiate(fleur_désert, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Desert/PD Feedbacks/Note/Note");
             }
             else if (hit.collider.name == "Montagne")
             {
                 Instantiate(fleur_montagne, hit.point, Quaternion.identity);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Piano/Piano Mountain/PM Feedbacks/Note/Note");
             }
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (objectToDestroy.CompareTag("Arbre_prérendu"))
+        if (objectToDestroy.CompareTag("Arbre"))
         {
-            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -282,9 +287,8 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Champignon_prérendu"))
+        if (objectToDestroy.CompareTag("Champignon"))
         {
-            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -319,9 +323,8 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Rocher_prérendu"))
+        if (objectToDestroy.CompareTag("Rocher"))
         {
-            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -356,9 +359,8 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Buisson_prérendu"))
-        {
-            gameObject.tag = objectToDestroy.tag;
+        if (objectToDestroy.CompareTag("Buisson"))
+        { 
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);
@@ -393,9 +395,8 @@ public class ObjectPlacement : MonoBehaviour
             }
         }
 
-        if (objectToDestroy.CompareTag("Fleur_prérendu"))
+        if (objectToDestroy.CompareTag("Fleur"))
         {
-            gameObject.tag = objectToDestroy.tag;
             if (other.name == "Plaine")
             {
                 Destroy(objectToDestroy);

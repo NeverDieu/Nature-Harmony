@@ -97,7 +97,7 @@ MonoBehaviour:
   fleur_montagne: {fileID: 344806781159238020, guid: be0f592a5339f4a429416c9cc8b8f85e, type: 3}
   placeHolder: {fileID: 0}
   objectToDestroy: {fileID: 0}
-  gomme: {fileID: 8718241547045728927, guid: 680adf84c2a587847a330a18bc67a733, type: 3}
+  gomme: {fileID: 8718241547045728927, guid: 128e4c4136b8fd9458c18c98e79fe86e, type: 3}
   hitLayers:
     serializedVersion: 2
     m_Bits: 8

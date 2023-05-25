@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9131673910057992674}
   - component: {fileID: 2868147492793261637}
   - component: {fileID: 8942616926382273826}
-  - component: {fileID: 7356942435335527031}
+  - component: {fileID: 8063734894343256262}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Gomme
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7653a2156c647cd49bf3245e41a32e9d, type: 2}
+  - {fileID: 2100000, guid: 55a70f58c5c71794e87b24657f788912, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,7 +115,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7356942435335527031
+--- !u!114 &8063734894343256262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5557953539320955751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a5ea625c1997ff48a9cc46c7bbf33dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 28328f1cb47c08b4891c38f41e1d946c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8718241547045728927
